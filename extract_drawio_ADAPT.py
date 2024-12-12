@@ -20,6 +20,9 @@ def extract_information(xml_path, base_name):
     shapes = []
     connections = []
 
+   print(f"\n-----------------------------------------------------------------")
+   print(f"{xml_path}")
+   
     # Iterate through UserObjects and mxCells
     for user_object in root.findall('.//UserObject') + root.findall('.//object'):
         adapttype = user_object.get('btelligentShapeType')
@@ -49,6 +52,7 @@ def extract_information(xml_path, base_name):
                     'end_arrow': end_arrow
                 }
                 connections.append(connection_info)
+                print(f"   - {connection_info.adapttype}: {connection_info.label}")
             else:  # It's a shape
                 shape_info = {
                     'base_name': base_name,
@@ -57,8 +61,7 @@ def extract_information(xml_path, base_name):
                     'adapttype': adapttype
                 }
                 shapes.append(shape_info)
-                
-    print('------------------------------------------------------\n')
+                print(f"   - {shape_info.adapttype}: {shape_info.label}")
                 
     if len(shapes) == 0:
         shape_info = {
@@ -68,7 +71,7 @@ def extract_information(xml_path, base_name):
             'adapttype': 'none'
         }
         shapes.append(shape_info)
-        print('shapes dummy added')
+        #print('shapes dummy added')
         
     if len(connections) == 0:  
         connection_info = {
@@ -82,12 +85,12 @@ def extract_information(xml_path, base_name):
             'end_arrow': 'none'
         }
         connections.append(connection_info)
-        print('connections dummy added')
+        #print('connections dummy added')
 
     df_shapes = pd.DataFrame(shapes)
     df_connections = pd.DataFrame(connections)
         
-    print(len(connections))
+    #print(len(connections))
     if len(connections) > 0:
         sqlc = """
         SELECT c.base_name
@@ -108,7 +111,7 @@ def extract_information(xml_path, base_name):
         df_connections2 = ps.sqldf(sqlc, locals())
         connections2 = df_connections2.to_dict(orient='records')
     
-    print(len(shapes))    
+    #print(len(shapes))    
     if len(shapes) > 0:   
         sqls = """
         SELECT s.base_name
@@ -147,9 +150,9 @@ def export_drawio_to_png(drawio_executable, input_file, output_file):
 
     try:
         subprocess.run(command, check=True)
-        print(f"Export successful: {output_file}")
+        print(f"   - Export successful: {output_file}")
     except subprocess.CalledProcessError as e:
-        print(f"Export error: {e}")
+        print(f"   --> Export error: {e}")
 
 def to_markdown_file(xml_path, shapes, connections):
     base_name = os.path.splitext(xml_path)[0]
@@ -175,7 +178,7 @@ def to_markdown_file(xml_path, shapes, connections):
         for connection in connections:
             md_file.write(f"|{connection['source_type']}|{connection['source_label']}|{connection['connection_type']}|{connection['connection_label']}|{connection['target_type']}|{connection['target_label']}|{connection['connection_id']}|{connection['source_shape_id']}|{connection['target_shape_id']}\n")
                                     
-    print(f"Markdown file '{md_filename}' has been created.")
+    print(f"   - Markdown file '{md_filename}' has been created.")
 
 def write_shapes_to_csv(all_shapes, csv_filename):
     with open(csv_filename, mode='w', newline='', encoding='utf-8') as csvfile:
@@ -230,8 +233,7 @@ def main():
                 base_name = os.path.splitext(file)[0]  # Get the file name without extension
                 png_path = os.path.join(png_directory, f"{base_name}.png")
 
-                print(f"Processing file: {drawio_path}")
-                print(f"PNG file: {png_path}")
+                print(f"   - Convert draw.io file {drawio_path} to PNG file: {png_path}")
 
                 export_drawio_to_png(drawio_executable, drawio_path, png_path)
 
