@@ -184,10 +184,10 @@
             </mxGeometry>
           </mxCell>
         </UserObject>
-        <mxCell id="b572gwpHaJpwLimqCF18-45" value="" style="group;fillColor=#FFFFFF;strokeColor=#36393d;" connectable="0" vertex="1" parent="1">
+        <mxCell id="b572gwpHaJpwLimqCF18-45" value="" style="group;fillColor=#FFFFFF;strokeColor=none;" connectable="0" vertex="1" parent="1">
           <mxGeometry x="2959" y="2000" width="160" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="b572gwpHaJpwLimqCF18-46" value="Location" style="rounded=1;whiteSpace=wrap;html=1;arcSize=50;align=left;spacingLeft=38;fillColor=#ffcc99;strokeColor=#36393d;" vertex="1" parent="b572gwpHaJpwLimqCF18-45">
+        <mxCell id="b572gwpHaJpwLimqCF18-46" value="Location" style="rounded=1;whiteSpace=wrap;html=1;arcSize=50;align=left;spacingLeft=38;fillColor=#FFFFFF;strokeColor=#36393d;" vertex="1" parent="b572gwpHaJpwLimqCF18-45">
           <mxGeometry width="160" height="40" as="geometry" />
         </mxCell>
         <mxCell id="b572gwpHaJpwLimqCF18-47" value="&lt;div style=&quot;font-size: 1px&quot;&gt;&lt;/div&gt;" style="verticalAlign=middle;align=center;overflow=width;vsdxID=9;fillColor=#C0C0C0;gradientColor=none;shape=stencil(UzV2Ls5ILEhVNTIoLinKz04tz0wpyVA1dlE1MsrMy0gtyiwBslSNXVWNndPyi1LTi/JL81Ig/IJEkEoQKze/DGRCBUSfqQFIi5FBJYQL4blBVOZk5iGpRFVoaIBHKUySKMX4XABkIByelpmTA/E3sjy6R4FCkEAydgUA);strokeColor=#000000;spacingTop=-3;spacingBottom=-3;spacingLeft=-3;spacingRight=-3;points=[];labelBackgroundColor=none;rounded=0;html=1;whiteSpace=wrap;container=0;" vertex="1" parent="b572gwpHaJpwLimqCF18-45">
