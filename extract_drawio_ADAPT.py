@@ -52,7 +52,7 @@ def extract_information(xml_path, base_name):
                     'end_arrow': end_arrow
                 }
                 connections.append(connection_info)
-                print(f"   - {connection_info.adapttype}: {connection_info.label}")
+                print(f"   - {adapttype}: {label}")
             else:  # It's a shape
                 shape_info = {
                     'base_name': base_name,
@@ -61,7 +61,7 @@ def extract_information(xml_path, base_name):
                     'adapttype': adapttype
                 }
                 shapes.append(shape_info)
-                print(f"   - {shape_info.adapttype}: {shape_info.label}")
+                print(f"   - {adapttype}: {label}")
                 
     if len(shapes) == 0:
         shape_info = {
