@@ -1,12 +1,14 @@
-# Overview for Diagram **DimTimestamp**:
+# Overview for Diagram **DimCalendar**:
 
-![Diagram DimTimestamp](../png/DimTimestamp.png)
+![Diagram DimCalendar](../png/DimCalendar.png)
 ## recognized shapes from b.telligent ADAPT library:
 
 |Shape ID|Shape Type|Label|
 |--------|----------|-----|
-|DimTimestamp.JcKF2ojR-ty8W29sog4p-103|Dimension|Timestamp|
-|DimTimestamp.JcKF2ojR-ty8W29sog4p-109|Hierarchy|HH_MM_SS|
+|DimCalendar.JcKF2ojR-ty8W29sog4p-49|Dimension|Timestamp|
+|DimCalendar.JcKF2ojR-ty8W29sog4p-89|Dimension|Radiowecker|
+|DimCalendar.JcKF2ojR-ty8W29sog4p-95|Dimension|Küchenuhr|
+|DimCalendar.JcKF2ojR-ty8W29sog4p-101|Hierarchy|Hierarchy|
 
 ## recognized connections from b.telligent ADAPT library:
 
