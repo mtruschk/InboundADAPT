@@ -5,10 +5,11 @@
 
 |Shape ID|Shape Type|Label|
 |--------|----------|-----|
-|DimCalendar.JcKF2ojR-ty8W29sog4p-49|Dimension|Timestamp|
-|DimCalendar.JcKF2ojR-ty8W29sog4p-89|Dimension|Radiowecker|
-|DimCalendar.JcKF2ojR-ty8W29sog4p-95|Dimension|Küchenuhr|
-|DimCalendar.JcKF2ojR-ty8W29sog4p-101|Hierarchy|Hierarchy|
+|DimCalendar.f77LYvtL0lH_vqSuSwCJ-1|Dimension|Calendar|
+|DimCalendar.f77LYvtL0lH_vqSuSwCJ-7|Hierarchy|QM Hierarchy|
+|DimCalendar.f77LYvtL0lH_vqSuSwCJ-15|Hierarchy|JQMT Hierarchy|
+|DimCalendar.f77LYvtL0lH_vqSuSwCJ-23|Hierarchy|JMT Hierarchy|
+|DimCalendar.f77LYvtL0lH_vqSuSwCJ-31|Hierarchy|JWT Hierarchy|
 
 ## recognized connections from b.telligent ADAPT library:
 

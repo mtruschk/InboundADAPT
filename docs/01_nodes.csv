@@ -1,9 +1,11 @@
 base_name,shape_id,shape_type,label
 ADAPT_Template,ADAPT_Template.none,none,none
-DimCalendar,DimCalendar.JcKF2ojR-ty8W29sog4p-49,Dimension,Timestamp
-DimCalendar,DimCalendar.JcKF2ojR-ty8W29sog4p-89,Dimension,Radiowecker
-DimCalendar,DimCalendar.JcKF2ojR-ty8W29sog4p-95,Dimension,Küchenuhr
-DimCalendar,DimCalendar.JcKF2ojR-ty8W29sog4p-101,Hierarchy,Hierarchy
+DimCalendar,DimCalendar.f77LYvtL0lH_vqSuSwCJ-1,Dimension,Calendar
+DimCalendar,DimCalendar.f77LYvtL0lH_vqSuSwCJ-7,Hierarchy,QM Hierarchy
+DimCalendar,DimCalendar.f77LYvtL0lH_vqSuSwCJ-15,Hierarchy,JQMT Hierarchy
+DimCalendar,DimCalendar.f77LYvtL0lH_vqSuSwCJ-23,Hierarchy,JMT Hierarchy
+DimCalendar,DimCalendar.f77LYvtL0lH_vqSuSwCJ-31,Hierarchy,JWT Hierarchy
 DimLocation,DimLocation.none,none,none
 DimTimestamp,DimTimestamp.JcKF2ojR-ty8W29sog4p-103,Dimension,Timestamp
 DimTimestamp,DimTimestamp.JcKF2ojR-ty8W29sog4p-109,Hierarchy,HH_MM_SS
+FactAdviceLine,FactAdviceLine.none,none,none
