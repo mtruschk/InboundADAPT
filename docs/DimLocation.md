@@ -1,11 +1,11 @@
-# Overview for Diagram **Dimension Location**:
+# Overview for Diagram **DimLocation**:
 
-![Diagram Dimension Location](../png/Dimension Location.png)
+![Diagram DimLocation](../png/DimLocation.png)
 ## recognized shapes from b.telligent ADAPT library:
 
 |Shape ID|Shape Type|Label|
 |--------|----------|-----|
-|Dimension Location.b572gwpHaJpwLimqCF18-8|Dimension|Fiege Location|
+|DimLocation.b572gwpHaJpwLimqCF18-8|Dimension|Fiege Location|
 
 ## recognized connections from b.telligent ADAPT library:
 
