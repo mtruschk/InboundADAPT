@@ -5,9 +5,10 @@
 
 |Shape ID|Shape Type|Label|
 |--------|----------|-----|
-|DimLocation.b572gwpHaJpwLimqCF18-8|Dimension|Fiege Location|
+|DimLocation.none|none|none|
 
 ## recognized connections from b.telligent ADAPT library:
 
 |Source Type|Source Label|Connection Type|Label|Target Type|Target Label|Connection ID|Source ID|Target ID|
 |-----------|------------|---------------|-----|-----------|------------|-------------|---------|---------|
+|none|none|self precedence|none|none|none|DimLocation.none|DimLocation.none|DimLocation.none

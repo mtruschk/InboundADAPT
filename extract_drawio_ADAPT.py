@@ -22,12 +22,13 @@ def extract_information(xml_path, base_name):
 
     # Iterate through UserObjects and mxCells
     for user_object in root.findall('.//UserObject') + root.findall('.//object'):
-        adapttype = user_object.get('btelligentADAPTType')
+        adapttype = user_object.get('btelligentShapeType')
+        btelligentLibrary = user_object.get('btelligentLibrary')
         label = user_object.get('label')
         shape_id = user_object.get('id')
 
         # Determine if this is a shape or a connection
-        if adapttype and adapttype in ["Dimension", "LoosePrecedence", "StrictPrecedence", "Hierarchy", "DimensionMember", "DimensionScope", "Function", "HierarchyLevel", "Attribute", "MeasureGroup", "MeasureDimension", "Hub", "Link", "Satellite", "Hub-to-Sat", "Hub-to-Link-N", "Hub-to-Link-1"]:
+        if btelligentLibrary == 'ADAPT' and adapttype and adapttype in ["Dimension", "LoosePrecedence", "StrictPrecedence", "Hierarchy", "DimensionMember", "DimensionScope", "Function", "HierarchyLevel", "Attribute", "MeasureGroup", "MeasureDimension", "Hub", "Link", "Satellite", "Hub-to-Sat", "Hub-to-Link-N", "Hub-to-Link-1"]:
             mx_cell = user_object.find('./mxCell')
             
             if mx_cell.get('edge') == '1':  # It's a connection

@@ -1,3 +1,3 @@
 base_name,source_type,source_label,connection_type,connection_label,target_type,target_label,connection_id,source_shape_id,target_shape_id
 ADAPT_Template,none,none,self precedence,none,none,none,ADAPT_Template.none,ADAPT_Template.none,ADAPT_Template.none
-DimTimestamp,none,none,self precedence,none,none,none,DimTimestamp.none,DimTimestamp.none,DimTimestamp.none
+DimLocation,none,none,self precedence,none,none,none,DimLocation.none,DimLocation.none,DimLocation.none
