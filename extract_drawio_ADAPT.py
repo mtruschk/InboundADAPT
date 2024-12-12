@@ -150,7 +150,7 @@ def export_drawio_to_png(drawio_executable, input_file, output_file):
 
     try:
         subprocess.run(command, check=True)
-        print(f"   - Export successful: {output_file}")
+        print(f"   - PNG Export successful")
     except subprocess.CalledProcessError as e:
         print(f"   --> Export error: {e}")
 
@@ -178,7 +178,7 @@ def to_markdown_file(xml_path, shapes, connections):
         for connection in connections:
             md_file.write(f"|{connection['source_type']}|{connection['source_label']}|{connection['connection_type']}|{connection['connection_label']}|{connection['target_type']}|{connection['target_label']}|{connection['connection_id']}|{connection['source_shape_id']}|{connection['target_shape_id']}\n")
                                     
-    print(f"   - Markdown file '{md_filename}' has been created.")
+    print(f"   - Markdown file has been created.")
 
 def write_shapes_to_csv(all_shapes, csv_filename):
     with open(csv_filename, mode='w', newline='', encoding='utf-8') as csvfile:
@@ -187,7 +187,7 @@ def write_shapes_to_csv(all_shapes, csv_filename):
         writer.writeheader()
         for shape in all_shapes:
             writer.writerow(shape)
-    print(f"Shapes CSV file '{csv_filename}' has been created.")
+    print(f"Shapes CSV file '01_nodes.csv' has been created.")
 
 def write_connections_to_csv(all_connections, csv_filename):
     with open(csv_filename, mode='w', newline='', encoding='utf-8') as csvfile:
@@ -196,7 +196,7 @@ def write_connections_to_csv(all_connections, csv_filename):
         writer.writeheader()
         for connection in all_connections:
             writer.writerow(connection)
-    print(f"Connections CSV file '{csv_filename}' has been created.")
+    print(f"Connections CSV file '02_edges.csv' has been created.")
 
 def main():
     print('#####################################################################################################\n')
@@ -233,7 +233,7 @@ def main():
                 base_name = os.path.splitext(file)[0]  # Get the file name without extension
                 png_path = os.path.join(png_directory, f"{base_name}.png")
 
-                print(f"   - Convert draw.io file {drawio_path} to PNG file: {png_path}")
+                print(f"   - Converting draw.io file to PNG file")
 
                 export_drawio_to_png(drawio_executable, drawio_path, png_path)
 
