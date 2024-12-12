@@ -4,34 +4,91 @@
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
-        <mxCell id="JcKF2ojR-ty8W29sog4p-47" value="Gruppenlabel" style="group" vertex="1" connectable="0" parent="1">
-          <mxGeometry x="120" y="444" width="160" height="76" as="geometry" />
+        <object label="Timestamp" btelligentShapeType="Dimension" btelligentLibrary="ADAPT" id="JcKF2ojR-ty8W29sog4p-49">
+          <mxCell style="group;fillColor=default;verticalAlign=middle;align=left;spacingLeft=31;fontStyle=1" vertex="1" connectable="0" parent="1">
+            <mxGeometry x="160" y="240" width="160" height="40" as="geometry" />
+          </mxCell>
+        </object>
+        <mxCell id="JcKF2ojR-ty8W29sog4p-40" value="GGG" style="rounded=0;whiteSpace=wrap;html=1;noLabel=1;container=0;editable=1;movable=1;resizable=1;rotatable=1;deletable=1;locked=0;connectable=1;fillColor=none;" vertex="1" parent="JcKF2ojR-ty8W29sog4p-49">
+          <mxGeometry width="160" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="JcKF2ojR-ty8W29sog4p-40" value="RectangleLabel" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="JcKF2ojR-ty8W29sog4p-47">
-          <mxGeometry y="36" width="160" height="40" as="geometry" />
+        <mxCell id="JcKF2ojR-ty8W29sog4p-43" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#000000;fontColor=#ffffff;strokeColor=#000000;strokeWidth=1;deletable=1;cloneable=0;movable=1;editable=1;resizable=1;rotatable=1;locked=0;connectable=1;container=0;expand=0;recursiveResize=0;allowArrows=0;" vertex="1" parent="JcKF2ojR-ty8W29sog4p-49">
+          <mxGeometry x="6.000000000000028" y="14" width="10" height="10" as="geometry" />
         </mxCell>
-        <mxCell id="JcKF2ojR-ty8W29sog4p-42" value="" style="group;cloneable=0;deletable=0;rotatable=0;resizable=0;movable=0;expand=0;recursiveResize=0;dropTarget=0;allowArrows=0;editable=0;locked=1;connectable=0;" connectable="0" vertex="1" parent="JcKF2ojR-ty8W29sog4p-47">
-          <mxGeometry x="10.000000000000028" width="22" height="32" as="geometry" />
-        </mxCell>
-        <mxCell id="JcKF2ojR-ty8W29sog4p-43" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#000000;fontColor=#ffffff;strokeColor=#000000;strokeWidth=1;deletable=1;cloneable=0;movable=0;editable=0;resizable=0;rotatable=0;locked=0;connectable=0;container=0;expand=0;recursiveResize=0;allowArrows=0;" vertex="1" parent="JcKF2ojR-ty8W29sog4p-42">
-          <mxGeometry y="10" width="10" height="10" as="geometry" />
-        </mxCell>
-        <mxCell id="JcKF2ojR-ty8W29sog4p-44" value="" style="endArrow=block;html=1;rounded=0;endFill=1;startSize=2;endSize=3;strokeWidth=1;deletable=1;cloneable=0;movable=1;editable=0;resizable=1;rotatable=1;locked=0;connectable=1;" edge="1" parent="JcKF2ojR-ty8W29sog4p-42">
+        <mxCell id="JcKF2ojR-ty8W29sog4p-44" value="" style="endArrow=block;html=1;rounded=0;endFill=1;startSize=2;endSize=3;strokeWidth=1;deletable=1;cloneable=0;movable=1;editable=1;resizable=1;rotatable=1;locked=0;connectable=1;" edge="1" parent="JcKF2ojR-ty8W29sog4p-49">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="9" y="10" as="sourcePoint" />
-            <mxPoint x="22" y="10" as="targetPoint" />
+            <mxPoint x="15.000000000000028" y="14" as="sourcePoint" />
+            <mxPoint x="28.00000000000003" y="14" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="JcKF2ojR-ty8W29sog4p-45" value="" style="endArrow=block;html=1;rounded=0;endFill=1;startSize=2;endSize=3;strokeWidth=1;deletable=1;cloneable=0;movable=1;editable=0;resizable=1;rotatable=1;locked=0;connectable=1;" edge="1" parent="JcKF2ojR-ty8W29sog4p-42">
+        <mxCell id="JcKF2ojR-ty8W29sog4p-45" value="" style="endArrow=block;html=1;rounded=0;endFill=1;startSize=2;endSize=3;strokeWidth=1;deletable=1;cloneable=0;movable=1;editable=1;resizable=1;rotatable=1;locked=0;connectable=1;" edge="1" parent="JcKF2ojR-ty8W29sog4p-49">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint y="18" as="sourcePoint" />
-            <mxPoint y="32" as="targetPoint" />
+            <mxPoint x="6.000000000000028" y="22" as="sourcePoint" />
+            <mxPoint x="6.000000000000028" y="36" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="JcKF2ojR-ty8W29sog4p-46" value="" style="endArrow=block;html=1;rounded=0;endFill=1;startSize=2;endSize=3;strokeWidth=1;deletable=1;cloneable=0;movable=1;editable=1;resizable=1;rotatable=1;locked=0;connectable=1;" edge="1" parent="JcKF2ojR-ty8W29sog4p-42">
+        <mxCell id="JcKF2ojR-ty8W29sog4p-46" value="" style="endArrow=block;html=1;rounded=0;endFill=1;startSize=2;endSize=3;strokeWidth=1;deletable=1;cloneable=0;movable=1;editable=1;resizable=1;rotatable=1;locked=0;connectable=1;" edge="1" parent="JcKF2ojR-ty8W29sog4p-49">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint y="10" as="sourcePoint" />
-            <mxPoint x="11" as="targetPoint" />
+            <mxPoint x="6.000000000000028" y="14" as="sourcePoint" />
+            <mxPoint x="17.00000000000003" y="4" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <object label="Kaffee" btelligentShapeType="Dimension" btelligentLibrary="ADAPT" id="JcKF2ojR-ty8W29sog4p-50">
+          <mxCell style="group;fillColor=default;verticalAlign=middle;align=left;spacingLeft=31;fontStyle=1" vertex="1" connectable="0" parent="1">
+            <mxGeometry x="160" y="440" width="160" height="40" as="geometry" />
+          </mxCell>
+        </object>
+        <mxCell id="JcKF2ojR-ty8W29sog4p-51" value="GGG" style="rounded=0;whiteSpace=wrap;html=1;noLabel=1;container=0;editable=1;movable=1;resizable=1;rotatable=1;deletable=1;locked=0;connectable=1;fillColor=none;" vertex="1" parent="JcKF2ojR-ty8W29sog4p-50">
+          <mxGeometry width="160" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="JcKF2ojR-ty8W29sog4p-52" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#000000;fontColor=#ffffff;strokeColor=#000000;strokeWidth=1;deletable=1;cloneable=0;movable=1;editable=1;resizable=1;rotatable=1;locked=0;connectable=1;container=0;expand=0;recursiveResize=0;allowArrows=0;" vertex="1" parent="JcKF2ojR-ty8W29sog4p-50">
+          <mxGeometry x="6.000000000000028" y="14" width="10" height="10" as="geometry" />
+        </mxCell>
+        <mxCell id="JcKF2ojR-ty8W29sog4p-53" value="" style="endArrow=block;html=1;rounded=0;endFill=1;startSize=2;endSize=3;strokeWidth=1;deletable=1;cloneable=0;movable=1;editable=1;resizable=1;rotatable=1;locked=0;connectable=1;" edge="1" parent="JcKF2ojR-ty8W29sog4p-50">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="15.000000000000028" y="14" as="sourcePoint" />
+            <mxPoint x="28.00000000000003" y="14" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="JcKF2ojR-ty8W29sog4p-54" value="" style="endArrow=block;html=1;rounded=0;endFill=1;startSize=2;endSize=3;strokeWidth=1;deletable=1;cloneable=0;movable=1;editable=1;resizable=1;rotatable=1;locked=0;connectable=1;" edge="1" parent="JcKF2ojR-ty8W29sog4p-50">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="6.000000000000028" y="22" as="sourcePoint" />
+            <mxPoint x="6.000000000000028" y="36" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="JcKF2ojR-ty8W29sog4p-55" value="" style="endArrow=block;html=1;rounded=0;endFill=1;startSize=2;endSize=3;strokeWidth=1;deletable=1;cloneable=0;movable=1;editable=1;resizable=1;rotatable=1;locked=0;connectable=1;" edge="1" parent="JcKF2ojR-ty8W29sog4p-50">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="6.000000000000028" y="14" as="sourcePoint" />
+            <mxPoint x="17.00000000000003" y="4" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <object label="Weihnachten" btelligentShapeType="Dimension" btelligentLibrary="ADAPT" id="JcKF2ojR-ty8W29sog4p-56">
+          <mxCell style="group;fillColor=default;verticalAlign=middle;align=left;spacingLeft=31;fontStyle=1" vertex="1" connectable="0" parent="1">
+            <mxGeometry x="166" y="565" width="160" height="40" as="geometry" />
+          </mxCell>
+        </object>
+        <mxCell id="JcKF2ojR-ty8W29sog4p-57" value="GGG" style="rounded=0;whiteSpace=wrap;html=1;noLabel=1;container=0;editable=1;movable=1;resizable=1;rotatable=1;deletable=1;locked=0;connectable=1;fillColor=none;" vertex="1" parent="JcKF2ojR-ty8W29sog4p-56">
+          <mxGeometry width="160" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="JcKF2ojR-ty8W29sog4p-58" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#000000;fontColor=#ffffff;strokeColor=#000000;strokeWidth=1;deletable=1;cloneable=0;movable=1;editable=1;resizable=1;rotatable=1;locked=0;connectable=1;container=0;expand=0;recursiveResize=0;allowArrows=0;" vertex="1" parent="JcKF2ojR-ty8W29sog4p-56">
+          <mxGeometry x="6.000000000000028" y="14" width="10" height="10" as="geometry" />
+        </mxCell>
+        <mxCell id="JcKF2ojR-ty8W29sog4p-59" value="" style="endArrow=block;html=1;rounded=0;endFill=1;startSize=2;endSize=3;strokeWidth=1;deletable=1;cloneable=0;movable=1;editable=1;resizable=1;rotatable=1;locked=0;connectable=1;" edge="1" parent="JcKF2ojR-ty8W29sog4p-56">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="15.000000000000028" y="14" as="sourcePoint" />
+            <mxPoint x="28.00000000000003" y="14" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="JcKF2ojR-ty8W29sog4p-60" value="" style="endArrow=block;html=1;rounded=0;endFill=1;startSize=2;endSize=3;strokeWidth=1;deletable=1;cloneable=0;movable=1;editable=1;resizable=1;rotatable=1;locked=0;connectable=1;" edge="1" parent="JcKF2ojR-ty8W29sog4p-56">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="6.000000000000028" y="22" as="sourcePoint" />
+            <mxPoint x="6.000000000000028" y="36" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="JcKF2ojR-ty8W29sog4p-61" value="" style="endArrow=block;html=1;rounded=0;endFill=1;startSize=2;endSize=3;strokeWidth=1;deletable=1;cloneable=0;movable=1;editable=1;resizable=1;rotatable=1;locked=0;connectable=1;" edge="1" parent="JcKF2ojR-ty8W29sog4p-56">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="6.000000000000028" y="14" as="sourcePoint" />
+            <mxPoint x="17.00000000000003" y="4" as="targetPoint" />
           </mxGeometry>
         </mxCell>
       </root>
