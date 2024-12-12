@@ -21,7 +21,7 @@ def extract_information(xml_path, base_name):
     connections = []
 
     print(f"\n-----------------------------------------------------------------")
-    print(f"{xml_path}")
+    print(f"Processing {xml_path}")
    
     # Iterate through UserObjects and mxCells
     for user_object in root.findall('.//UserObject') + root.findall('.//object'):
@@ -187,7 +187,7 @@ def write_shapes_to_csv(all_shapes, csv_filename):
         writer.writeheader()
         for shape in all_shapes:
             writer.writerow(shape)
-    print(f"Shapes CSV file '01_nodes.csv' has been created.")
+    print(f"\nShapes CSV file '01_nodes.csv' has been created.")
 
 def write_connections_to_csv(all_connections, csv_filename):
     with open(csv_filename, mode='w', newline='', encoding='utf-8') as csvfile:
@@ -196,10 +196,10 @@ def write_connections_to_csv(all_connections, csv_filename):
         writer.writeheader()
         for connection in all_connections:
             writer.writerow(connection)
-    print(f"Connections CSV file '02_edges.csv' has been created.")
+    print(f"Connections CSV file '02_edges.csv' has been created.\n\n")
 
 def main():
-    print('#####################################################################################################\n')
+    print('\n#####################################################################################################\n')
     drawio_directory = os.path.join(os.getcwd(), 'drawio')
     docs_directory = os.path.join(os.getcwd(), 'docs')
     png_directory = os.path.join(os.getcwd(), 'png')
