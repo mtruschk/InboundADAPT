@@ -20,7 +20,7 @@ def extract_information(xml_path, base_name):
     shapes = []
     connections = []
 
-    print(f"\n-----------------------------------------------------------------")
+    print(f"\n------------------------------------------------------------------------------------------------------------")
     print(f"Processing {xml_path}")
    
     # Iterate through UserObjects and mxCells
