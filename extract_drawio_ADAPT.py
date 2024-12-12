@@ -20,8 +20,8 @@ def extract_information(xml_path, base_name):
     shapes = []
     connections = []
 
-   print(f"\n-----------------------------------------------------------------")
-   print(f"{xml_path}")
+    print(f"\n-----------------------------------------------------------------")
+    print(f"{xml_path}")
    
     # Iterate through UserObjects and mxCells
     for user_object in root.findall('.//UserObject') + root.findall('.//object'):
