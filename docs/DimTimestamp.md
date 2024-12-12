@@ -5,10 +5,9 @@
 
 |Shape ID|Shape Type|Label|
 |--------|----------|-----|
-|DimTimestamp.none|none|none|
+|DimTimestamp.JcKF2ojR-ty8W29sog4p-24|Dimension|Timestamp|
 
 ## recognized connections from b.telligent ADAPT library:
 
 |Source Type|Source Label|Connection Type|Label|Target Type|Target Label|Connection ID|Source ID|Target ID|
 |-----------|------------|---------------|-----|-----------|------------|-------------|---------|---------|
-|none|none|self precedence|none|none|none|DimTimestamp.none|DimTimestamp.none|DimTimestamp.none
