@@ -8,6 +8,7 @@
 |DimTimestamp.JcKF2ojR-ty8W29sog4p-49|Dimension|Timestamp|
 |DimTimestamp.JcKF2ojR-ty8W29sog4p-89|Dimension|Radiowecker|
 |DimTimestamp.JcKF2ojR-ty8W29sog4p-95|Dimension|Küchenuhr|
+|DimTimestamp.JcKF2ojR-ty8W29sog4p-101|Hierarchy|Hierarchy|
 
 ## recognized connections from b.telligent ADAPT library:
 
