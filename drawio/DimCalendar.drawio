@@ -565,7 +565,7 @@
             </mxGeometry>
           </mxCell>
         </UserObject>
-        <object label="Measures" btelligentShapeType="MeasureDimension" btelligentLibrary="ADAPT" id="vdX0nlRlNV5u23rPeZXY-186">
+        <object label="&lt;Measures&gt;" btelligentShapeType="MeasureDimension" btelligentLibrary="ADAPT" id="vdX0nlRlNV5u23rPeZXY-186">
           <mxCell style="group;fillColor=default;verticalAlign=middle;align=left;spacingLeft=36;whiteSpace=wrap;fontStyle=1;connectable=1;" vertex="1" connectable="0" parent="1">
             <mxGeometry x="-120" y="280" width="160" height="40" as="geometry" />
           </mxCell>
@@ -631,10 +631,10 @@
           <mxGeometry x="7" y="42" width="150" height="73" as="geometry" />
         </mxCell>
         <UserObject label="" btelligentShapeType="LoosePrecedence" btelligentLibrary="ADAPT" id="vdX0nlRlNV5u23rPeZXY-195">
-          <mxCell style="vsdxID=5;startArrow=none;endArrow=block;startSize=10;endSize=10;strokeColor=#000000;spacingTop=2;spacingBottom=2;spacingLeft=2;spacingRight=2;verticalAlign=middle;html=1;labelBackgroundColor=#FFFFFF;rounded=1;jumpStyle=arc;startFill=0;endFill=1;fontStyle=2;labelBorderColor=none;edgeStyle=orthogonalEdgeStyle;" edge="1" parent="1" source="vdX0nlRlNV5u23rPeZXY-187" target="vdX0nlRlNV5u23rPeZXY-186">
+          <mxCell style="vsdxID=5;startArrow=none;endArrow=block;startSize=10;endSize=10;strokeColor=#000000;spacingTop=2;spacingBottom=2;spacingLeft=2;spacingRight=2;verticalAlign=middle;html=1;labelBackgroundColor=#FFFFFF;rounded=1;jumpStyle=arc;startFill=0;endFill=1;fontStyle=2;labelBorderColor=none;edgeStyle=orthogonalEdgeStyle;" edge="1" parent="1" source="vdX0nlRlNV5u23rPeZXY-187">
             <mxGeometry relative="1" as="geometry">
               <mxPoint x="450" y="300" as="sourcePoint" />
-              <mxPoint x="450" y="360" as="targetPoint" />
+              <mxPoint y="260" as="targetPoint" />
               <mxPoint as="offset" />
             </mxGeometry>
           </mxCell>
