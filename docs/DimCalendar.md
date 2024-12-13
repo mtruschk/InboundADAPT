@@ -15,3 +15,4 @@
 
 |Source Type|Source Label|Connection Type|Label|Target Type|Target Label|Connection ID|Source ID|Target ID|
 |-----------|------------|---------------|-----|-----------|------------|-------------|---------|---------|
+|Dimension|Calendar|LoosePrecedence|Eins|Hierarchy|QM Hierarchy|DimCalendar.f77LYvtL0lH_vqSuSwCJ-39|DimCalendar.f77LYvtL0lH_vqSuSwCJ-1|DimCalendar.f77LYvtL0lH_vqSuSwCJ-7
