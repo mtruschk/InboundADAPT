@@ -7,6 +7,8 @@
 |--------|----------|-----|
 |DimTimestamp.JcKF2ojR-ty8W29sog4p-103|Dimension|Timestamp|
 |DimTimestamp.JcKF2ojR-ty8W29sog4p-109|Hierarchy|HH_MM_SS|
+|DimTimestamp.JcKF2ojR-ty8W29sog4p-138|Hierarchy|<Hierarchy>|
+|DimTimestamp.JcKF2ojR-ty8W29sog4p-146|Dimension|<Dimension>|
 
 ## recognized connections from b.telligent ADAPT library:
 
