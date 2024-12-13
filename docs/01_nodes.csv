@@ -16,6 +16,8 @@ DimCalendar,DimCalendar.vdX0nlRlNV5u23rPeZXY-103,HierarchyLevel,Week
 DimCalendar,DimCalendar.vdX0nlRlNV5u23rPeZXY-109,HierarchyLevel,Day
 DimCalendar,DimCalendar.vdX0nlRlNV5u23rPeZXY-117,Comment,Müssen hier auch zwei Hierarchien (eine mit und eine ohne Quartal) erstellt werden?
 DimCalendar,DimCalendar.vdX0nlRlNV5u23rPeZXY-118,Comment,"Welche Hierarchien sollen in ADAPT eigentlich dargestellt werden, die natürlichen Abhängigkeiten oder die im Reporting verfügbaren Auswertepfade? Das Quartal könnte ja übersprungen werden oder es könnte sogar ein Halbjahr dazwischengeschoben werden."
+DimCalendar,DimCalendar.vdX0nlRlNV5u23rPeZXY-146,Attribute,Date
+DimCalendar,DimCalendar.vdX0nlRlNV5u23rPeZXY-150,Attribute,Weekday
 DimLocation,DimLocation.none,none,none
 DimTimestamp,DimTimestamp.JcKF2ojR-ty8W29sog4p-103,Dimension,Timestamp
 DimTimestamp,DimTimestamp.JcKF2ojR-ty8W29sog4p-109,Hierarchy,HH_MM_SS

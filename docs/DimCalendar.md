@@ -21,6 +21,8 @@
 |DimCalendar.vdX0nlRlNV5u23rPeZXY-109|HierarchyLevel|Day|
 |DimCalendar.vdX0nlRlNV5u23rPeZXY-117|Comment|Müssen hier auch zwei Hierarchien (eine mit und eine ohne Quartal) erstellt werden?|
 |DimCalendar.vdX0nlRlNV5u23rPeZXY-118|Comment|Welche Hierarchien sollen in ADAPT eigentlich dargestellt werden, die natürlichen Abhängigkeiten oder die im Reporting verfügbaren Auswertepfade? Das Quartal könnte ja übersprungen werden oder es könnte sogar ein Halbjahr dazwischengeschoben werden.|
+|DimCalendar.vdX0nlRlNV5u23rPeZXY-146|Attribute|Date|
+|DimCalendar.vdX0nlRlNV5u23rPeZXY-150|Attribute|Weekday|
 
 ## recognized connections from b.telligent ADAPT library:
 
@@ -36,3 +38,5 @@
 |HierarchyLevel|Week|StrictPrecedence||HierarchyLevel|Day|DimCalendar.vdX0nlRlNV5u23rPeZXY-114|DimCalendar.vdX0nlRlNV5u23rPeZXY-103|DimCalendar.vdX0nlRlNV5u23rPeZXY-109
 |HierarchyLevel|Month|StrictPrecedence||HierarchyLevel|Day|DimCalendar.vdX0nlRlNV5u23rPeZXY-115|DimCalendar.vdX0nlRlNV5u23rPeZXY-96|DimCalendar.vdX0nlRlNV5u23rPeZXY-109
 |HierarchyLevel|Month (no year)|StrictPrecedence||HierarchyLevel|Day|DimCalendar.vdX0nlRlNV5u23rPeZXY-116|DimCalendar.vdX0nlRlNV5u23rPeZXY-61|DimCalendar.vdX0nlRlNV5u23rPeZXY-109
+|HierarchyLevel|Day|LoosePrecedence||Attribute|Date|DimCalendar.vdX0nlRlNV5u23rPeZXY-149|DimCalendar.vdX0nlRlNV5u23rPeZXY-109|DimCalendar.vdX0nlRlNV5u23rPeZXY-146
+|HierarchyLevel|Day|LoosePrecedence||Attribute|Weekday|DimCalendar.vdX0nlRlNV5u23rPeZXY-153|DimCalendar.vdX0nlRlNV5u23rPeZXY-109|DimCalendar.vdX0nlRlNV5u23rPeZXY-150
