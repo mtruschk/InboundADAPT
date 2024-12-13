@@ -9,6 +9,7 @@
 |DimTimestamp.JcKF2ojR-ty8W29sog4p-109|Hierarchy|HH_MM_SS|
 |DimTimestamp.JcKF2ojR-ty8W29sog4p-138|Hierarchy|<Hierarchy>|
 |DimTimestamp.JcKF2ojR-ty8W29sog4p-146|Dimension|<Dimension>|
+|DimTimestamp.JcKF2ojR-ty8W29sog4p-152|HierarchyLevel|<Hierarchy Level>|
 
 ## recognized connections from b.telligent ADAPT library:
 

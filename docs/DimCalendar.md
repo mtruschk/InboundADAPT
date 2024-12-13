@@ -10,6 +10,7 @@
 |DimCalendar.f77LYvtL0lH_vqSuSwCJ-15|Hierarchy|JQMT Hierarchy|
 |DimCalendar.f77LYvtL0lH_vqSuSwCJ-23|Hierarchy|JMT Hierarchy|
 |DimCalendar.f77LYvtL0lH_vqSuSwCJ-31|Hierarchy|JWT Hierarchy|
+|DimCalendar.vdX0nlRlNV5u23rPeZXY-38|HierarchyLevel|<Hierarchy Level>|
 
 ## recognized connections from b.telligent ADAPT library:
 
