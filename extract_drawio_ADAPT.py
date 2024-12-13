@@ -89,8 +89,10 @@ def extract_information(xml_path, base_name):
 
     df_shapes = pd.DataFrame(shapes)
     df_connections = pd.DataFrame(connections)
-        
-    print(f"Connections found: {len(connections)})
+    
+    lc = len(connections)
+    print(f"Connections found: {lc})
+    
     if len(connections) > 0:
         sqlc = """
         SELECT c.base_name
