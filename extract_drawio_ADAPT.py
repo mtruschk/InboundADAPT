@@ -20,17 +20,21 @@ def extract_information(xml_path, base_name):
     shapes = []
     connections = []
 
+    print(f"\n------------------------------------------------------------------------------------------------------------")
+    print(f"Processing {xml_path}")
+   
     # Iterate through UserObjects and mxCells
     for user_object in root.findall('.//UserObject') + root.findall('.//object'):
-        adapttype = user_object.get('btelligentADAPTType')
+        adapttype = user_object.get('btelligentShapeType')
+        btelligentLibrary = user_object.get('btelligentLibrary')
         label = user_object.get('label')
         shape_id = user_object.get('id')
 
         # Determine if this is a shape or a connection
-        if adapttype and adapttype in ["Dimension", "LoosePrecedence", "StrictPrecedence", "Hierarchy", "DimensionMember", "DimensionScope", "Function", "HierarchyLevel", "Attribute", "MeasureGroup", "MeasureDimension", "Hub", "Link", "Satellite", "Hub-to-Sat", "Hub-to-Link-N", "Hub-to-Link-1"]:
+        if btelligentLibrary == 'ADAPT' and adapttype in ["Dimension", "LoosePrecedence", "Hierarchy"]:      #"StrictPrecedence", , "DimensionMember", "DimensionScope", "Function", "HierarchyLevel", "Attribute", "MeasureGroup", "MeasureDimension", "Hub", "Link", "Satellite", "Hub-to-Sat", "Hub-to-Link-N", "Hub-to-Link-1"]:
             mx_cell = user_object.find('./mxCell')
             
-            if mx_cell.get('edge') == '1':  # It's a connection
+            if mx_cell.get('edge') == '1' or adapttype in ["LoosePrecedence", "StrictPrecedence"]:  # It's a connection
                 source = mx_cell.get('source')
                 target = mx_cell.get('target')
                 style = mx_cell.get('style')
@@ -56,8 +60,8 @@ def extract_information(xml_path, base_name):
                     'adapttype': adapttype
                 }
                 shapes.append(shape_info)
-                
-    print('------------------------------------------------------\n')
+            
+            print(f"   - {adapttype}: {label}")
                 
     if len(shapes) == 0:
         shape_info = {
@@ -67,7 +71,7 @@ def extract_information(xml_path, base_name):
             'adapttype': 'none'
         }
         shapes.append(shape_info)
-        print('shapes dummy added')
+        #print('shapes dummy added')
         
     if len(connections) == 0:  
         connection_info = {
@@ -81,12 +85,14 @@ def extract_information(xml_path, base_name):
             'end_arrow': 'none'
         }
         connections.append(connection_info)
-        print('connections dummy added')
+        #print('connections dummy added')
 
     df_shapes = pd.DataFrame(shapes)
     df_connections = pd.DataFrame(connections)
-        
-    print(len(connections))
+    
+    lc = len(connections)
+    print(f"Connections found: {lc}")
+    
     if len(connections) > 0:
         sqlc = """
         SELECT c.base_name
@@ -97,7 +103,7 @@ def extract_information(xml_path, base_name):
              , c.base_name ||'.'|| c.target                                                 as target_shape_id
              , t.adapttype                                                                  as target_type  
              , t.label                                                                      as target_label
-             , CASE WHEN c.source = c.target THEN 'self precedence' ELSE c.adapttype END    as connection_type
+             , CASE WHEN c.source = c.target THEN 'SelfPrecedence' ELSE c.adapttype END     as connection_type
              , c.label                                                                      as connection_label
         FROM df_connections c
         JOIN df_shapes s ON s.shape_id = c.source
@@ -106,8 +112,15 @@ def extract_information(xml_path, base_name):
         
         df_connections2 = ps.sqldf(sqlc, locals())
         connections2 = df_connections2.to_dict(orient='records')
+        
+        print(df_shapes)
+        print(df_connections)
+        print(df_connections2)
+        
+        print(f"Connections2 found: {len(connections2)}")
+        print(f"df_Connections found: {len(df_connections2)}")
     
-    print(len(shapes))    
+    #print(len(shapes))    
     if len(shapes) > 0:   
         sqls = """
         SELECT s.base_name
@@ -146,9 +159,9 @@ def export_drawio_to_png(drawio_executable, input_file, output_file):
 
     try:
         subprocess.run(command, check=True)
-        print(f"Export successful: {output_file}")
+        print(f"   - PNG Export successful")
     except subprocess.CalledProcessError as e:
-        print(f"Export error: {e}")
+        print(f"   --> Export error: {e}")
 
 def to_markdown_file(xml_path, shapes, connections):
     base_name = os.path.splitext(xml_path)[0]
@@ -174,7 +187,7 @@ def to_markdown_file(xml_path, shapes, connections):
         for connection in connections:
             md_file.write(f"|{connection['source_type']}|{connection['source_label']}|{connection['connection_type']}|{connection['connection_label']}|{connection['target_type']}|{connection['target_label']}|{connection['connection_id']}|{connection['source_shape_id']}|{connection['target_shape_id']}\n")
                                     
-    print(f"Markdown file '{md_filename}' has been created.")
+    print(f"   - Markdown file has been created.")
 
 def write_shapes_to_csv(all_shapes, csv_filename):
     with open(csv_filename, mode='w', newline='', encoding='utf-8') as csvfile:
@@ -183,7 +196,7 @@ def write_shapes_to_csv(all_shapes, csv_filename):
         writer.writeheader()
         for shape in all_shapes:
             writer.writerow(shape)
-    print(f"Shapes CSV file '{csv_filename}' has been created.")
+    print(f"\nShapes CSV file '01_nodes.csv' has been created.")
 
 def write_connections_to_csv(all_connections, csv_filename):
     with open(csv_filename, mode='w', newline='', encoding='utf-8') as csvfile:
@@ -192,10 +205,10 @@ def write_connections_to_csv(all_connections, csv_filename):
         writer.writeheader()
         for connection in all_connections:
             writer.writerow(connection)
-    print(f"Connections CSV file '{csv_filename}' has been created.")
+    print(f"Connections CSV file '02_edges.csv' has been created.\n\n")
 
 def main():
-    print('#####################################################################################################\n')
+    print('\n#####################################################################################################\n')
     drawio_directory = os.path.join(os.getcwd(), 'drawio')
     docs_directory = os.path.join(os.getcwd(), 'docs')
     png_directory = os.path.join(os.getcwd(), 'png')
@@ -229,8 +242,7 @@ def main():
                 base_name = os.path.splitext(file)[0]  # Get the file name without extension
                 png_path = os.path.join(png_directory, f"{base_name}.png")
 
-                print(f"Processing file: {drawio_path}")
-                print(f"PNG file: {png_path}")
+                print(f"   - Converting draw.io file to PNG file")
 
                 export_drawio_to_png(drawio_executable, drawio_path, png_path)
 
