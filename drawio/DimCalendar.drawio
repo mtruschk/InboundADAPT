@@ -1,6 +1,6 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:133.0) Gecko/20100101 Firefox/133.0" version="25.0.3">
   <diagram name="Seite-1" id="D6MCeGrKerhMQp70AOl7">
-    <mxGraphModel dx="1293" dy="697" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1724" dy="929" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -226,7 +226,7 @@
             <mxGeometry width="160" height="40" as="geometry" />
           </mxCell>
         </object>
-        <object label="Monat (no year)" btelligentShapeType="HierarchyLevel" btelligentLibrary="ADAPT" id="vdX0nlRlNV5u23rPeZXY-61">
+        <object label="Month (no year)" btelligentShapeType="HierarchyLevel" btelligentLibrary="ADAPT" id="vdX0nlRlNV5u23rPeZXY-61">
           <mxCell style="group;fillColor=default;verticalAlign=middle;align=left;spacingLeft=34;connectable=1;" vertex="1" connectable="0" parent="1">
             <mxGeometry x="240" y="600" width="160" height="40" as="geometry" />
           </mxCell>
@@ -495,6 +495,16 @@
             </mxGeometry>
           </mxCell>
         </UserObject>
+        <object label="Müssen hier auch zwei Hierarchien (eine mit und eine ohne Quartal) erstellt werden?" btelligentLibrary="ADAPT" btelligentShapeType="Comment" id="vdX0nlRlNV5u23rPeZXY-117">
+          <mxCell style="shape=note;whiteSpace=wrap;html=1;backgroundOutline=1;darkOpacity=0.05;size=10;fillColor=#fff2cc;strokeColor=#F5E08C;fontSize=10;verticalAlign=top;align=left;spacingLeft=3;spacingRight=3;" vertex="1" parent="1">
+            <mxGeometry x="80" y="480" width="120" height="80" as="geometry" />
+          </mxCell>
+        </object>
+        <object label="Welche Hierarchien sollen in ADAPT eigentlich dargestellt werden, die natürlichen Abhängigkeiten oder die im Reporting verfügbaren Auswertepfade? Das Quartal könnte ja übersprungen werden oder es könnte sogar ein Halbjahr dazwischengeschoben werden." btelligentLibrary="ADAPT" btelligentShapeType="Comment" id="vdX0nlRlNV5u23rPeZXY-118">
+          <mxCell style="shape=note;whiteSpace=wrap;html=1;backgroundOutline=1;darkOpacity=0.05;size=10;fillColor=#fff2cc;strokeColor=#F5E08C;fontSize=10;verticalAlign=top;align=left;spacingLeft=3;spacingRight=3;" vertex="1" parent="1">
+            <mxGeometry x="480" y="660" width="200" height="110" as="geometry" />
+          </mxCell>
+        </object>
       </root>
     </mxGraphModel>
   </diagram>
