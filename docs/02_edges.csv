@@ -1,7 +1,7 @@
 base_name,source_type,source_label,connection_type,connection_label,target_type,target_label,connection_id,source_shape_id,target_shape_id
 ADAPT_Template,none,none,SelfPrecedence,none,none,none,ADAPT_Template.none,ADAPT_Template.none,ADAPT_Template.none
 DimCalendar,Dimension,Calendar,LoosePrecedence,,Hierarchy,QM Hierarchy (no year),DimCalendar.f77LYvtL0lH_vqSuSwCJ-39,DimCalendar.f77LYvtL0lH_vqSuSwCJ-1,DimCalendar.f77LYvtL0lH_vqSuSwCJ-7
-DimCalendar,HierarchyLevel,Quarter (no year),StrictPrecedence,,HierarchyLevel,Monat (no year),DimCalendar.vdX0nlRlNV5u23rPeZXY-66,DimCalendar.vdX0nlRlNV5u23rPeZXY-55,DimCalendar.vdX0nlRlNV5u23rPeZXY-61
+DimCalendar,HierarchyLevel,Quarter (no year),StrictPrecedence,,HierarchyLevel,Month (no year),DimCalendar.vdX0nlRlNV5u23rPeZXY-66,DimCalendar.vdX0nlRlNV5u23rPeZXY-55,DimCalendar.vdX0nlRlNV5u23rPeZXY-61
 DimCalendar,HierarchyLevel,Year,StrictPrecedence,,HierarchyLevel,Quarter,DimCalendar.vdX0nlRlNV5u23rPeZXY-78,DimCalendar.vdX0nlRlNV5u23rPeZXY-67,DimCalendar.vdX0nlRlNV5u23rPeZXY-73
 DimCalendar,Hierarchy,QM Hierarchy (no year),LoosePrecedence,,HierarchyLevel,Quarter (no year),DimCalendar.vdX0nlRlNV5u23rPeZXY-91,DimCalendar.f77LYvtL0lH_vqSuSwCJ-7,DimCalendar.vdX0nlRlNV5u23rPeZXY-55
 DimCalendar,HierarchyLevel,Year,StrictPrecedence,,HierarchyLevel,Month,DimCalendar.vdX0nlRlNV5u23rPeZXY-101,DimCalendar.vdX0nlRlNV5u23rPeZXY-79,DimCalendar.vdX0nlRlNV5u23rPeZXY-96
@@ -9,6 +9,6 @@ DimCalendar,HierarchyLevel,Quarter,StrictPrecedence,,HierarchyLevel,Month,DimCal
 DimCalendar,HierarchyLevel,Year,StrictPrecedence,,HierarchyLevel,Week,DimCalendar.vdX0nlRlNV5u23rPeZXY-108,DimCalendar.vdX0nlRlNV5u23rPeZXY-85,DimCalendar.vdX0nlRlNV5u23rPeZXY-103
 DimCalendar,HierarchyLevel,Week,StrictPrecedence,,HierarchyLevel,Day,DimCalendar.vdX0nlRlNV5u23rPeZXY-114,DimCalendar.vdX0nlRlNV5u23rPeZXY-103,DimCalendar.vdX0nlRlNV5u23rPeZXY-109
 DimCalendar,HierarchyLevel,Month,StrictPrecedence,,HierarchyLevel,Day,DimCalendar.vdX0nlRlNV5u23rPeZXY-115,DimCalendar.vdX0nlRlNV5u23rPeZXY-96,DimCalendar.vdX0nlRlNV5u23rPeZXY-109
-DimCalendar,HierarchyLevel,Monat (no year),StrictPrecedence,,HierarchyLevel,Day,DimCalendar.vdX0nlRlNV5u23rPeZXY-116,DimCalendar.vdX0nlRlNV5u23rPeZXY-61,DimCalendar.vdX0nlRlNV5u23rPeZXY-109
+DimCalendar,HierarchyLevel,Month (no year),StrictPrecedence,,HierarchyLevel,Day,DimCalendar.vdX0nlRlNV5u23rPeZXY-116,DimCalendar.vdX0nlRlNV5u23rPeZXY-61,DimCalendar.vdX0nlRlNV5u23rPeZXY-109
 DimLocation,none,none,SelfPrecedence,none,none,none,DimLocation.none,DimLocation.none,DimLocation.none
 FactAdviceLine,none,none,SelfPrecedence,none,none,none,FactAdviceLine.none,FactAdviceLine.none,FactAdviceLine.none
