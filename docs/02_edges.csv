@@ -12,6 +12,6 @@ DimCalendar,HierarchyLevel,Month,StrictPrecedence,,HierarchyLevel,Day,DimCalenda
 DimCalendar,HierarchyLevel,Month (no year),StrictPrecedence,,HierarchyLevel,Day,DimCalendar.vdX0nlRlNV5u23rPeZXY-116,DimCalendar.vdX0nlRlNV5u23rPeZXY-61,DimCalendar.vdX0nlRlNV5u23rPeZXY-109
 DimCalendar,HierarchyLevel,Day,LoosePrecedence,,Attribute,Date,DimCalendar.vdX0nlRlNV5u23rPeZXY-149,DimCalendar.vdX0nlRlNV5u23rPeZXY-109,DimCalendar.vdX0nlRlNV5u23rPeZXY-146
 DimCalendar,HierarchyLevel,Day,LoosePrecedence,,Attribute,Weekday,DimCalendar.vdX0nlRlNV5u23rPeZXY-153,DimCalendar.vdX0nlRlNV5u23rPeZXY-109,DimCalendar.vdX0nlRlNV5u23rPeZXY-150
-DimCalendar,MeasureGroup,Advice,LoosePrecedence,Transaction,Dimension,Calendar,DimCalendar.vdX0nlRlNV5u23rPeZXY-171,DimCalendar.vdX0nlRlNV5u23rPeZXY-164,DimCalendar.f77LYvtL0lH_vqSuSwCJ-1
+DimCalendar,MeasureGroup,Advice Line,LoosePrecedence,Transaction,Dimension,Calendar,DimCalendar.vdX0nlRlNV5u23rPeZXY-171,DimCalendar.vdX0nlRlNV5u23rPeZXY-187,DimCalendar.f77LYvtL0lH_vqSuSwCJ-1
 DimLocation,none,none,SelfPrecedence,none,none,none,DimLocation.none,DimLocation.none,DimLocation.none
 FactAdviceLine,none,none,SelfPrecedence,none,none,none,FactAdviceLine.none,FactAdviceLine.none,FactAdviceLine.none
