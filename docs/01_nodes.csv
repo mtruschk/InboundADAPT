@@ -1,11 +1,19 @@
 base_name,shape_id,shape_type,label
 ADAPT_Template,ADAPT_Template.none,none,none
 DimCalendar,DimCalendar.f77LYvtL0lH_vqSuSwCJ-1,Dimension,Calendar
-DimCalendar,DimCalendar.f77LYvtL0lH_vqSuSwCJ-7,Hierarchy,QM Hierarchy
-DimCalendar,DimCalendar.f77LYvtL0lH_vqSuSwCJ-15,Hierarchy,JQMT Hierarchy
-DimCalendar,DimCalendar.f77LYvtL0lH_vqSuSwCJ-23,Hierarchy,JMT Hierarchy
-DimCalendar,DimCalendar.f77LYvtL0lH_vqSuSwCJ-31,Hierarchy,JWT Hierarchy
-DimCalendar,DimCalendar.vdX0nlRlNV5u23rPeZXY-38,HierarchyLevel,<Hierarchy Level>
+DimCalendar,DimCalendar.f77LYvtL0lH_vqSuSwCJ-7,Hierarchy,QM Hierarchy (no year)
+DimCalendar,DimCalendar.f77LYvtL0lH_vqSuSwCJ-15,Hierarchy,YQMD Hierarchy
+DimCalendar,DimCalendar.f77LYvtL0lH_vqSuSwCJ-23,Hierarchy,YMD Hierarchy
+DimCalendar,DimCalendar.f77LYvtL0lH_vqSuSwCJ-31,Hierarchy,YWD Hierarchy
+DimCalendar,DimCalendar.vdX0nlRlNV5u23rPeZXY-55,HierarchyLevel,Quarter (no year)
+DimCalendar,DimCalendar.vdX0nlRlNV5u23rPeZXY-61,HierarchyLevel,Monat (no year)
+DimCalendar,DimCalendar.vdX0nlRlNV5u23rPeZXY-67,HierarchyLevel,Year
+DimCalendar,DimCalendar.vdX0nlRlNV5u23rPeZXY-73,HierarchyLevel,Quarter
+DimCalendar,DimCalendar.vdX0nlRlNV5u23rPeZXY-79,HierarchyLevel,Year
+DimCalendar,DimCalendar.vdX0nlRlNV5u23rPeZXY-85,HierarchyLevel,Year
+DimCalendar,DimCalendar.vdX0nlRlNV5u23rPeZXY-96,HierarchyLevel,Month
+DimCalendar,DimCalendar.vdX0nlRlNV5u23rPeZXY-103,HierarchyLevel,Week
+DimCalendar,DimCalendar.vdX0nlRlNV5u23rPeZXY-109,HierarchyLevel,Day
 DimLocation,DimLocation.none,none,none
 DimTimestamp,DimTimestamp.JcKF2ojR-ty8W29sog4p-103,Dimension,Timestamp
 DimTimestamp,DimTimestamp.JcKF2ojR-ty8W29sog4p-109,Hierarchy,HH_MM_SS
