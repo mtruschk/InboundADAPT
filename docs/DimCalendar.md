@@ -23,6 +23,7 @@
 |DimCalendar.vdX0nlRlNV5u23rPeZXY-118|Comment|Welche Hierarchien sollen in ADAPT eigentlich dargestellt werden, die natürlichen Abhängigkeiten oder die im Reporting verfügbaren Auswertepfade? Das Quartal könnte ja übersprungen werden oder es könnte sogar ein Halbjahr dazwischengeschoben werden.|
 |DimCalendar.vdX0nlRlNV5u23rPeZXY-146|Attribute|Date|
 |DimCalendar.vdX0nlRlNV5u23rPeZXY-150|Attribute|Weekday|
+|DimCalendar.vdX0nlRlNV5u23rPeZXY-186|MeasureDimension|Measures|
 |DimCalendar.vdX0nlRlNV5u23rPeZXY-187|MeasureGroup|Advice Line|
 
 ## recognized connections from b.telligent ADAPT library:
@@ -42,3 +43,4 @@
 |HierarchyLevel|Day|LoosePrecedence||Attribute|Date|DimCalendar.vdX0nlRlNV5u23rPeZXY-149|DimCalendar.vdX0nlRlNV5u23rPeZXY-109|DimCalendar.vdX0nlRlNV5u23rPeZXY-146
 |HierarchyLevel|Day|LoosePrecedence||Attribute|Weekday|DimCalendar.vdX0nlRlNV5u23rPeZXY-153|DimCalendar.vdX0nlRlNV5u23rPeZXY-109|DimCalendar.vdX0nlRlNV5u23rPeZXY-150
 |MeasureGroup|Advice Line|LoosePrecedence|Transaction|Dimension|Calendar|DimCalendar.vdX0nlRlNV5u23rPeZXY-171|DimCalendar.vdX0nlRlNV5u23rPeZXY-187|DimCalendar.f77LYvtL0lH_vqSuSwCJ-1
+|MeasureGroup|Advice Line|LoosePrecedence||MeasureDimension|Measures|DimCalendar.vdX0nlRlNV5u23rPeZXY-195|DimCalendar.vdX0nlRlNV5u23rPeZXY-187|DimCalendar.vdX0nlRlNV5u23rPeZXY-186
