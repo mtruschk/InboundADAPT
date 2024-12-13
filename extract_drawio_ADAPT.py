@@ -34,7 +34,7 @@ def extract_information(xml_path, base_name):
         if btelligentLibrary == 'ADAPT' and adapttype in ["Dimension", "LoosePrecedence", "Hierarchy"]:      #"StrictPrecedence", , "DimensionMember", "DimensionScope", "Function", "HierarchyLevel", "Attribute", "MeasureGroup", "MeasureDimension", "Hub", "Link", "Satellite", "Hub-to-Sat", "Hub-to-Link-N", "Hub-to-Link-1"]:
             mx_cell = user_object.find('./mxCell')
             
-            if mx_cell.get('edge') == '1':  # It's a connection
+            if mx_cell.get('edge') == '1' or adapttype in ["LoosePrecedence", "StrictPrecedence"]:  # It's a connection
                 source = mx_cell.get('source')
                 target = mx_cell.get('target')
                 style = mx_cell.get('style')
@@ -52,7 +52,7 @@ def extract_information(xml_path, base_name):
                     'end_arrow': end_arrow
                 }
                 connections.append(connection_info)
-                print(f"   - {adapttype}: {label}")
+                print(f"   - {adapttype}: {label} {source} {target} {shape_id} {style} {start_arrow} {end_arrow}")
             else:  # It's a shape
                 shape_info = {
                     'base_name': base_name,
@@ -175,6 +175,7 @@ def to_markdown_file(xml_path, shapes, connections):
         md_file.write(f"|Source Type|Source Label|Connection Type|Label|Target Type|Target Label|Connection ID|Source ID|Target ID|\n")
         md_file.write(f"|-----------|------------|---------------|-----|-----------|------------|-------------|---------|---------|\n")
         
+        print(len(connections)
         for connection in connections:
             md_file.write(f"|{connection['source_type']}|{connection['source_label']}|{connection['connection_type']}|{connection['connection_label']}|{connection['target_type']}|{connection['target_label']}|{connection['connection_id']}|{connection['source_shape_id']}|{connection['target_shape_id']}\n")
                                     
