@@ -90,7 +90,7 @@ def extract_information(xml_path, base_name):
     df_shapes = pd.DataFrame(shapes)
     df_connections = pd.DataFrame(connections)
         
-    #print(len(connections))
+    print(f"Connections found: {len(connections)})
     if len(connections) > 0:
         sqlc = """
         SELECT c.base_name
@@ -101,7 +101,7 @@ def extract_information(xml_path, base_name):
              , c.base_name ||'.'|| c.target                                                 as target_shape_id
              , t.adapttype                                                                  as target_type  
              , t.label                                                                      as target_label
-             , CASE WHEN c.source = c.target THEN 'self precedence' ELSE c.adapttype END    as connection_type
+             , CASE WHEN c.source = c.target THEN 'SelfPrecedence' ELSE c.adapttype END     as connection_type
              , c.label                                                                      as connection_label
         FROM df_connections c
         JOIN df_shapes s ON s.shape_id = c.source
