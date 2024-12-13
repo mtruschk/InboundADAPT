@@ -14,9 +14,9 @@
     "title": "Hierarchy"
   },
   {
-    "xml": "&lt;mxGraphModel&gt;&lt;root&gt;&lt;mxCell id=\"0\"/&gt;&lt;mxCell id=\"1\" parent=\"0\"/&gt;&lt;UserObject label=\"\" btelligentShapeType=\"LoosePrecedence\" btelligentLibrary=\"ADAPT\" id=\"2\"&gt;&lt;mxCell style=\"vsdxID=5;edgeStyle=elbowEdgeStyle;startArrow=none;endArrow=block;startSize=10;endSize=10;strokeColor=#000000;spacingTop=0;spacingBottom=0;spacingLeft=0;spacingRight=0;verticalAlign=middle;html=1;labelBackgroundColor=#FFFFFF;rounded=1;jumpStyle=arc;startFill=0;endFill=1;curved=0;\" edge=\"1\" parent=\"1\"&gt;&lt;mxGeometry x=\"-152\" y=\"-991\" relative=\"1\" as=\"geometry\"&gt;&lt;mxPoint as=\"sourcePoint\"/&gt;&lt;mxPoint y=\"160\" as=\"targetPoint\"/&gt;&lt;/mxGeometry&gt;&lt;/mxCell&gt;&lt;/UserObject&gt;&lt;/root&gt;&lt;/mxGraphModel&gt;",
-    "w": 0.6666666666666666,
-    "h": 160,
+    "xml": "&lt;mxGraphModel&gt;&lt;root&gt;&lt;mxCell id=\"0\"/&gt;&lt;mxCell id=\"1\" parent=\"0\"/&gt;&lt;UserObject label=\"\" btelligentShapeType=\"LoosePrecedence\" btelligentLibrary=\"ADAPT\" id=\"2\"&gt;&lt;mxCell style=\"vsdxID=5;edgeStyle=elbowEdgeStyle;startArrow=none;endArrow=block;startSize=10;endSize=10;strokeColor=#000000;spacingTop=2;spacingBottom=2;spacingLeft=2;spacingRight=2;verticalAlign=middle;html=1;labelBackgroundColor=#FFFFFF;rounded=1;jumpStyle=arc;startFill=0;endFill=1;curved=0;fontStyle=2;labelBorderColor=none;\" edge=\"1\" parent=\"1\"&gt;&lt;mxGeometry relative=\"1\" as=\"geometry\"&gt;&lt;mxPoint as=\"sourcePoint\"/&gt;&lt;mxPoint y=\"80\" as=\"targetPoint\"/&gt;&lt;Array as=\"points\"&gt;&lt;mxPoint y=\"60\"/&gt;&lt;mxPoint x=\"190\" y=\"50\"/&gt;&lt;/Array&gt;&lt;mxPoint as=\"offset\"/&gt;&lt;/mxGeometry&gt;&lt;/mxCell&gt;&lt;/UserObject&gt;&lt;/root&gt;&lt;/mxGraphModel&gt;",
+    "w": 0.5,
+    "h": 80,
     "aspect": "fixed",
     "title": "LoosePrecedence"
   }
