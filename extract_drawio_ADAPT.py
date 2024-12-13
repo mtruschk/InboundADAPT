@@ -115,6 +115,7 @@ def extract_information(xml_path, base_name):
         
         print(df_shapes)
         print(df_connections)
+        print(df_connections2)
         
         print(f"Connections2 found: {len(connections2)}")
         print(f"df_Connections found: {len(df_connections2)}")
