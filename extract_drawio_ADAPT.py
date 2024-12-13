@@ -175,7 +175,6 @@ def to_markdown_file(xml_path, shapes, connections):
         md_file.write(f"|Source Type|Source Label|Connection Type|Label|Target Type|Target Label|Connection ID|Source ID|Target ID|\n")
         md_file.write(f"|-----------|------------|---------------|-----|-----------|------------|-------------|---------|---------|\n")
         
-        print(len(connections)
         for connection in connections:
             md_file.write(f"|{connection['source_type']}|{connection['source_label']}|{connection['connection_type']}|{connection['connection_label']}|{connection['target_type']}|{connection['target_label']}|{connection['connection_id']}|{connection['source_shape_id']}|{connection['target_shape_id']}\n")
                                     
