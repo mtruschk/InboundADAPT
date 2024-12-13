@@ -114,7 +114,7 @@ def extract_information(xml_path, base_name):
         connections2 = df_connections2.to_dict(orient='records')
         
         print(df_shapes)
-        print(df_connnections)
+        print(df_connections)
         
         print(f"Connections2 found: {len(connections2)}")
         print(f"df_Connections found: {len(df_connections2)}")
