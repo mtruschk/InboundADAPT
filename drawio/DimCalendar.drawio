@@ -1,6 +1,6 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:133.0) Gecko/20100101 Firefox/133.0" version="25.0.3">
   <diagram name="Seite-1" id="D6MCeGrKerhMQp70AOl7">
-    <mxGraphModel dx="1724" dy="929" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1293" dy="697" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -505,6 +505,54 @@
             <mxGeometry x="480" y="660" width="200" height="110" as="geometry" />
           </mxCell>
         </object>
+        <object label="Date" btelligentShapeType="Attribute" btelligentLibrary="ADAPT" id="vdX0nlRlNV5u23rPeZXY-146">
+          <mxCell style="group;fillColor=default;connectable=1;verticalAlign=middle;align=left;spacingLeft=36;whiteSpace=wrap;spacingRight=2;" vertex="1" connectable="0" parent="1">
+            <mxGeometry x="1040" y="840" width="160" height="40" as="geometry" />
+          </mxCell>
+        </object>
+        <object label="" ADAPT="Attribute" id="vdX0nlRlNV5u23rPeZXY-147">
+          <mxCell style="shape=singleArrow;direction=west;whiteSpace=wrap;html=1;arrowWidth=1;arrowSize=0.125;align=left;spacingLeft=37;container=0;fillColor=none;noLabel=1;connectable=0;editable=0;" vertex="1" parent="vdX0nlRlNV5u23rPeZXY-146">
+            <mxGeometry width="160" height="40" as="geometry" />
+          </mxCell>
+        </object>
+        <mxCell id="vdX0nlRlNV5u23rPeZXY-148" style="vsdxID=7;fillColor=#C0C0C0;gradientColor=none;shape=stencil(nZBNDoQgDIVP0z3SeALFe5iI0gwDBvHv9kIaM+rCxezea7++pA+wmkw7apBiisF/9EpdNIA1SEnO6EAxKUAFWPU+6CH42XXsxzaTWX39khM2vitFPpFiZ8uuYdKSu5B3sHwhH5mFeGHP5R+5NzKJ34s9WcsNXffPStKI60R1AA==);strokeColor=#000000;spacingTop=-3;spacingBottom=-3;spacingLeft=-3;spacingRight=-3;points=[];labelBackgroundColor=none;rounded=0;html=1;whiteSpace=wrap;container=0;" vertex="1" parent="vdX0nlRlNV5u23rPeZXY-146">
+          <mxGeometry x="8" y="7.5" width="25" height="25" as="geometry" />
+        </mxCell>
+        <UserObject label="" btelligentShapeType="LoosePrecedence" btelligentLibrary="ADAPT" id="vdX0nlRlNV5u23rPeZXY-149">
+          <mxCell style="vsdxID=5;startArrow=none;endArrow=block;startSize=10;endSize=10;strokeColor=#000000;spacingTop=2;spacingBottom=2;spacingLeft=2;spacingRight=2;verticalAlign=middle;html=1;labelBackgroundColor=#FFFFFF;rounded=1;jumpStyle=arc;startFill=0;endFill=1;fontStyle=2;labelBorderColor=none;edgeStyle=orthogonalEdgeStyle;" edge="1" parent="1" source="vdX0nlRlNV5u23rPeZXY-109" target="vdX0nlRlNV5u23rPeZXY-146">
+            <mxGeometry relative="1" as="geometry">
+              <mxPoint x="850" y="610" as="sourcePoint" />
+              <mxPoint x="850" y="670" as="targetPoint" />
+              <mxPoint as="offset" />
+            </mxGeometry>
+          </mxCell>
+        </UserObject>
+        <object label="Weekday" btelligentShapeType="Attribute" btelligentLibrary="ADAPT" id="vdX0nlRlNV5u23rPeZXY-150">
+          <mxCell style="group;fillColor=default;connectable=1;verticalAlign=middle;align=left;spacingLeft=36;whiteSpace=wrap;spacingRight=2;" vertex="1" connectable="0" parent="1">
+            <mxGeometry x="1040" y="900" width="160" height="40" as="geometry" />
+          </mxCell>
+        </object>
+        <object label="" ADAPT="Attribute" id="vdX0nlRlNV5u23rPeZXY-151">
+          <mxCell style="shape=singleArrow;direction=west;whiteSpace=wrap;html=1;arrowWidth=1;arrowSize=0.125;align=left;spacingLeft=37;container=0;fillColor=none;noLabel=1;connectable=0;editable=0;" vertex="1" parent="vdX0nlRlNV5u23rPeZXY-150">
+            <mxGeometry width="160" height="40" as="geometry" />
+          </mxCell>
+        </object>
+        <mxCell id="vdX0nlRlNV5u23rPeZXY-152" style="vsdxID=7;fillColor=#C0C0C0;gradientColor=none;shape=stencil(nZBNDoQgDIVP0z3SeALFe5iI0gwDBvHv9kIaM+rCxezea7++pA+wmkw7apBiisF/9EpdNIA1SEnO6EAxKUAFWPU+6CH42XXsxzaTWX39khM2vitFPpFiZ8uuYdKSu5B3sHwhH5mFeGHP5R+5NzKJ34s9WcsNXffPStKI60R1AA==);strokeColor=#000000;spacingTop=-3;spacingBottom=-3;spacingLeft=-3;spacingRight=-3;points=[];labelBackgroundColor=none;rounded=0;html=1;whiteSpace=wrap;container=0;" vertex="1" parent="vdX0nlRlNV5u23rPeZXY-150">
+          <mxGeometry x="8" y="7.5" width="25" height="25" as="geometry" />
+        </mxCell>
+        <UserObject label="" btelligentShapeType="LoosePrecedence" btelligentLibrary="ADAPT" id="vdX0nlRlNV5u23rPeZXY-153">
+          <mxCell style="vsdxID=5;startArrow=none;endArrow=block;startSize=10;endSize=10;strokeColor=#000000;spacingTop=2;spacingBottom=2;spacingLeft=2;spacingRight=2;verticalAlign=middle;html=1;labelBackgroundColor=#FFFFFF;rounded=1;jumpStyle=arc;startFill=0;endFill=1;fontStyle=2;labelBorderColor=none;edgeStyle=orthogonalEdgeStyle;" edge="1" parent="1" source="vdX0nlRlNV5u23rPeZXY-109" target="vdX0nlRlNV5u23rPeZXY-150">
+            <mxGeometry relative="1" as="geometry">
+              <mxPoint x="1010" y="870" as="sourcePoint" />
+              <mxPoint x="1050" y="870" as="targetPoint" />
+              <mxPoint as="offset" />
+              <Array as="points">
+                <mxPoint x="1020" y="860" />
+                <mxPoint x="1020" y="920" />
+              </Array>
+            </mxGeometry>
+          </mxCell>
+        </UserObject>
       </root>
     </mxGraphModel>
   </diagram>
