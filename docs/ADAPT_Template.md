@@ -11,4 +11,4 @@
 
 |Source Type|Source Label|Connection Type|Label|Target Type|Target Label|Connection ID|Source ID|Target ID|
 |-----------|------------|---------------|-----|-----------|------------|-------------|---------|---------|
-|none|none|self precedence|none|none|none|ADAPT_Template.none|ADAPT_Template.none|ADAPT_Template.none
+|none|none|SelfPrecedence|none|none|none|ADAPT_Template.none|ADAPT_Template.none|ADAPT_Template.none

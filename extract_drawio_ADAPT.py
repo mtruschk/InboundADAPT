@@ -91,7 +91,7 @@ def extract_information(xml_path, base_name):
     df_connections = pd.DataFrame(connections)
     
     lc = len(connections)
-    print(f"Connections found: {lc})
+    print(f"Connections found: {lc}")
     
     if len(connections) > 0:
         sqlc = """

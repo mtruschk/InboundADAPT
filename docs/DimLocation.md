@@ -11,4 +11,4 @@
 
 |Source Type|Source Label|Connection Type|Label|Target Type|Target Label|Connection ID|Source ID|Target ID|
 |-----------|------------|---------------|-----|-----------|------------|-------------|---------|---------|
-|none|none|self precedence|none|none|none|DimLocation.none|DimLocation.none|DimLocation.none
+|none|none|SelfPrecedence|none|none|none|DimLocation.none|DimLocation.none|DimLocation.none
