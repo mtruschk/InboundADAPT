@@ -5,12 +5,12 @@
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
         <object label="Calendar" btelligentShapeType="Dimension" btelligentLibrary="ADAPT" id="f77LYvtL0lH_vqSuSwCJ-1">
-          <mxCell style="group;fillColor=default;verticalAlign=middle;align=left;spacingLeft=31;fontStyle=1" parent="1" vertex="1" connectable="0">
+          <mxCell style="group;fillColor=default;verticalAlign=middle;align=left;spacingLeft=31;fontStyle=1;connectable=1;" parent="1" vertex="1" connectable="0">
             <mxGeometry x="240" y="80" width="160" height="40" as="geometry" />
           </mxCell>
         </object>
         <object label="GGG" id="f77LYvtL0lH_vqSuSwCJ-2">
-          <mxCell style="rounded=0;whiteSpace=wrap;html=1;noLabel=1;container=0;editable=0;movable=1;resizable=1;rotatable=1;deletable=1;locked=0;connectable=1;fillColor=none;" parent="f77LYvtL0lH_vqSuSwCJ-1" vertex="1">
+          <mxCell style="rounded=0;whiteSpace=wrap;html=1;noLabel=1;container=0;editable=0;movable=1;resizable=1;rotatable=1;deletable=1;locked=0;connectable=0;fillColor=none;" parent="f77LYvtL0lH_vqSuSwCJ-1" vertex="1">
             <mxGeometry width="160" height="40" as="geometry" />
           </mxCell>
         </object>
@@ -36,11 +36,11 @@
           </mxGeometry>
         </mxCell>
         <object label="QM Hierarchy" btelligentShapeType="Hierarchy" btelligentLibrary="ADAPT" id="f77LYvtL0lH_vqSuSwCJ-7">
-          <mxCell style="group;fillColor=default;verticalAlign=middle;align=left;spacingLeft=32;" parent="1" vertex="1" connectable="0">
+          <mxCell style="group;fillColor=default;verticalAlign=middle;align=left;spacingLeft=32;connectable=1;" parent="1" vertex="1" connectable="0">
             <mxGeometry x="240" y="240" width="160" height="40" as="geometry" />
           </mxCell>
         </object>
-        <mxCell id="f77LYvtL0lH_vqSuSwCJ-8" value="Hierarchy" style="shape=loopLimit;whiteSpace=wrap;html=1;size=20;verticalAlign=middle;spacingLeft=37;align=left;container=0;fillColor=none;noLabel=1;editable=0;movable=1;resizable=1;rotatable=1;deletable=1;locked=0;connectable=1;" parent="f77LYvtL0lH_vqSuSwCJ-7" vertex="1">
+        <mxCell id="f77LYvtL0lH_vqSuSwCJ-8" value="Hierarchy" style="shape=loopLimit;whiteSpace=wrap;html=1;size=20;verticalAlign=middle;spacingLeft=37;align=left;container=0;fillColor=none;noLabel=1;editable=0;movable=1;resizable=1;rotatable=1;deletable=1;locked=0;connectable=0;" parent="f77LYvtL0lH_vqSuSwCJ-7" vertex="1">
           <mxGeometry width="160" height="40" as="geometry" />
         </mxCell>
         <mxCell id="f77LYvtL0lH_vqSuSwCJ-9" value="" style="group;movable=1;resizable=1;rotatable=1;deletable=1;editable=1;locked=0;connectable=1;" parent="f77LYvtL0lH_vqSuSwCJ-7" vertex="1" connectable="0">
@@ -172,10 +172,10 @@
           </mxGeometry>
         </mxCell>
         <UserObject label="Eins" btelligentShapeType="LoosePrecedence" btelligentLibrary="ADAPT" id="f77LYvtL0lH_vqSuSwCJ-39">
-          <mxCell style="vsdxID=5;startArrow=none;endArrow=block;startSize=10;endSize=10;strokeColor=#000000;spacingTop=2;spacingBottom=2;spacingLeft=2;spacingRight=2;verticalAlign=middle;html=1;labelBackgroundColor=#FFFFFF;rounded=1;jumpStyle=arc;startFill=0;endFill=1;fontStyle=2;labelBorderColor=none;edgeStyle=orthogonalEdgeStyle;" parent="1" source="f77LYvtL0lH_vqSuSwCJ-2" target="f77LYvtL0lH_vqSuSwCJ-8" edge="1">
+          <mxCell style="vsdxID=5;startArrow=none;endArrow=block;startSize=10;endSize=10;strokeColor=#000000;spacingTop=2;spacingBottom=2;spacingLeft=2;spacingRight=2;verticalAlign=middle;html=1;labelBackgroundColor=#FFFFFF;rounded=1;jumpStyle=arc;startFill=0;endFill=1;fontStyle=2;labelBorderColor=none;edgeStyle=orthogonalEdgeStyle;" parent="1" source="f77LYvtL0lH_vqSuSwCJ-1" target="f77LYvtL0lH_vqSuSwCJ-7" edge="1">
             <mxGeometry relative="1" as="geometry">
-              <mxPoint x="120" y="120" as="sourcePoint" />
-              <mxPoint x="120" y="180" as="targetPoint" />
+              <mxPoint x="240" y="170" as="sourcePoint" />
+              <mxPoint x="170" y="190" as="targetPoint" />
               <mxPoint as="offset" />
             </mxGeometry>
           </mxCell>
