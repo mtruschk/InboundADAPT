@@ -28,11 +28,14 @@
 |DimCalendar.vdX0nlRlNV5u23rPeZXY-201|DimensionMember|Bruttoumsatz|
 |DimCalendar.vdX0nlRlNV5u23rPeZXY-222|Function|<div>(Nettoumsatz *&nbsp;</div><div>Umsatzsteuer / 100)</div><div>+ Ausgleichsfaktor</div>|
 |DimCalendar.vdX0nlRlNV5u23rPeZXY-296|DimensionMember|Nettoumsatz|
-|DimCalendar.vdX0nlRlNV5u23rPeZXY-302|Function|&lt;Function&gt;|
-|DimCalendar.vdX0nlRlNV5u23rPeZXY-309|DimensionScope|Dimension Scope|
-|DimCalendar.vdX0nlRlNV5u23rPeZXY-312|FullyOverlapping|Fully Overlapping
+|DimCalendar.vdX0nlRlNV5u23rPeZXY-318|DimensionScope|warm months|
+|DimCalendar.vdX0nlRlNV5u23rPeZXY-321|DimensionScope|cold months|
+|DimCalendar.vdX0nlRlNV5u23rPeZXY-324|DimensionScope|sunny months|
+|DimCalendar.vdX0nlRlNV5u23rPeZXY-327|DimensionScope|windy months|
+|DimCalendar.vdX0nlRlNV5u23rPeZXY-330|DimensionScope|rainy months|
+|DimCalendar.vdX0nlRlNV5u23rPeZXY-333|FullyExclusive|Fully Exclusive|
+|DimCalendar.vdX0nlRlNV5u23rPeZXY-338|FullyOverlapping|Fully Overlapping
 |
-|DimCalendar.vdX0nlRlNV5u23rPeZXY-315|FullyExclusive|Fully Exclusive|
 
 ## recognized connections from b.telligent ADAPT library:
 
@@ -54,4 +57,15 @@
 |MeasureGroup|Advice Line|LoosePrecedence||MeasureDimension|Measures|DimCalendar.vdX0nlRlNV5u23rPeZXY-195|DimCalendar.vdX0nlRlNV5u23rPeZXY-187|DimCalendar.vdX0nlRlNV5u23rPeZXY-186
 |MeasureDimension|Measures|LoosePrecedence||DimensionMember|Bruttoumsatz|DimCalendar.vdX0nlRlNV5u23rPeZXY-202|DimCalendar.vdX0nlRlNV5u23rPeZXY-186|DimCalendar.vdX0nlRlNV5u23rPeZXY-201
 |DimensionMember|Bruttoumsatz|LoosePrecedence||Function|<div>(Nettoumsatz *&nbsp;</div><div>Umsatzsteuer / 100)</div><div>+ Ausgleichsfaktor</div>|DimCalendar.vdX0nlRlNV5u23rPeZXY-231|DimCalendar.vdX0nlRlNV5u23rPeZXY-201|DimCalendar.vdX0nlRlNV5u23rPeZXY-222
+|HierarchyLevel|Month (no year)|LoosePrecedence||FullyExclusive|Fully Exclusive|DimCalendar.vdX0nlRlNV5u23rPeZXY-236|DimCalendar.vdX0nlRlNV5u23rPeZXY-61|DimCalendar.vdX0nlRlNV5u23rPeZXY-333
+|HierarchyLevel|Month (no year)|LoosePrecedence||FullyOverlapping|Fully Overlapping
+|DimCalendar.vdX0nlRlNV5u23rPeZXY-275|DimCalendar.vdX0nlRlNV5u23rPeZXY-61|DimCalendar.vdX0nlRlNV5u23rPeZXY-338
 |MeasureDimension|Measures|LoosePrecedence||DimensionMember|Nettoumsatz|DimCalendar.vdX0nlRlNV5u23rPeZXY-301|DimCalendar.vdX0nlRlNV5u23rPeZXY-186|DimCalendar.vdX0nlRlNV5u23rPeZXY-296
+|FullyExclusive|Fully Exclusive|LoosePrecedence||DimensionScope|warm months|DimCalendar.vdX0nlRlNV5u23rPeZXY-336|DimCalendar.vdX0nlRlNV5u23rPeZXY-333|DimCalendar.vdX0nlRlNV5u23rPeZXY-318
+|FullyExclusive|Fully Exclusive|LoosePrecedence||DimensionScope|cold months|DimCalendar.vdX0nlRlNV5u23rPeZXY-337|DimCalendar.vdX0nlRlNV5u23rPeZXY-333|DimCalendar.vdX0nlRlNV5u23rPeZXY-321
+|FullyOverlapping|Fully Overlapping
+|LoosePrecedence||DimensionScope|sunny months|DimCalendar.vdX0nlRlNV5u23rPeZXY-341|DimCalendar.vdX0nlRlNV5u23rPeZXY-338|DimCalendar.vdX0nlRlNV5u23rPeZXY-324
+|FullyOverlapping|Fully Overlapping
+|LoosePrecedence||DimensionScope|windy months|DimCalendar.vdX0nlRlNV5u23rPeZXY-342|DimCalendar.vdX0nlRlNV5u23rPeZXY-338|DimCalendar.vdX0nlRlNV5u23rPeZXY-327
+|FullyOverlapping|Fully Overlapping
+|LoosePrecedence||DimensionScope|rainy months|DimCalendar.vdX0nlRlNV5u23rPeZXY-343|DimCalendar.vdX0nlRlNV5u23rPeZXY-338|DimCalendar.vdX0nlRlNV5u23rPeZXY-330

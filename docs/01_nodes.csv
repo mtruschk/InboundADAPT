@@ -23,11 +23,14 @@ DimCalendar,DimCalendar.vdX0nlRlNV5u23rPeZXY-187,MeasureGroup,Advice Line
 DimCalendar,DimCalendar.vdX0nlRlNV5u23rPeZXY-201,DimensionMember,Bruttoumsatz
 DimCalendar,DimCalendar.vdX0nlRlNV5u23rPeZXY-222,Function,<div>(Nettoumsatz *&nbsp;</div><div>Umsatzsteuer / 100)</div><div>+ Ausgleichsfaktor</div>
 DimCalendar,DimCalendar.vdX0nlRlNV5u23rPeZXY-296,DimensionMember,Nettoumsatz
-DimCalendar,DimCalendar.vdX0nlRlNV5u23rPeZXY-302,Function,&lt;Function&gt;
-DimCalendar,DimCalendar.vdX0nlRlNV5u23rPeZXY-309,DimensionScope,Dimension Scope
-DimCalendar,DimCalendar.vdX0nlRlNV5u23rPeZXY-312,FullyOverlapping,"Fully Overlapping
+DimCalendar,DimCalendar.vdX0nlRlNV5u23rPeZXY-318,DimensionScope,warm months
+DimCalendar,DimCalendar.vdX0nlRlNV5u23rPeZXY-321,DimensionScope,cold months
+DimCalendar,DimCalendar.vdX0nlRlNV5u23rPeZXY-324,DimensionScope,sunny months
+DimCalendar,DimCalendar.vdX0nlRlNV5u23rPeZXY-327,DimensionScope,windy months
+DimCalendar,DimCalendar.vdX0nlRlNV5u23rPeZXY-330,DimensionScope,rainy months
+DimCalendar,DimCalendar.vdX0nlRlNV5u23rPeZXY-333,FullyExclusive,Fully Exclusive
+DimCalendar,DimCalendar.vdX0nlRlNV5u23rPeZXY-338,FullyOverlapping,"Fully Overlapping
 "
-DimCalendar,DimCalendar.vdX0nlRlNV5u23rPeZXY-315,FullyExclusive,Fully Exclusive
 DimLocation,DimLocation.none,none,none
 DimTimestamp,DimTimestamp.JcKF2ojR-ty8W29sog4p-103,Dimension,Timestamp
 DimTimestamp,DimTimestamp.JcKF2ojR-ty8W29sog4p-109,Hierarchy,HH_MM_SS
