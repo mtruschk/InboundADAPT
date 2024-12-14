@@ -26,7 +26,13 @@
 |DimCalendar.vdX0nlRlNV5u23rPeZXY-186|MeasureDimension|Measures|
 |DimCalendar.vdX0nlRlNV5u23rPeZXY-187|MeasureGroup|Advice Line|
 |DimCalendar.vdX0nlRlNV5u23rPeZXY-201|DimensionMember|Bruttoumsatz|
+|DimCalendar.vdX0nlRlNV5u23rPeZXY-222|Function|<div>(Nettoumsatz *&nbsp;</div><div>Umsatzsteuer / 100)</div><div>+ Ausgleichsfaktor</div>|
 |DimCalendar.vdX0nlRlNV5u23rPeZXY-296|DimensionMember|Nettoumsatz|
+|DimCalendar.vdX0nlRlNV5u23rPeZXY-302|Function|&lt;Function&gt;|
+|DimCalendar.vdX0nlRlNV5u23rPeZXY-309|DimensionScope|<Dimension Scope>|
+|DimCalendar.vdX0nlRlNV5u23rPeZXY-312|FullyOverlapping|Fully Overlapping
+|
+|DimCalendar.vdX0nlRlNV5u23rPeZXY-315|FullyExclusive|Fully Exclusive|
 
 ## recognized connections from b.telligent ADAPT library:
 
@@ -47,4 +53,5 @@
 |MeasureGroup|Advice Line|LoosePrecedence|Transaction|Dimension|Calendar|DimCalendar.vdX0nlRlNV5u23rPeZXY-171|DimCalendar.vdX0nlRlNV5u23rPeZXY-187|DimCalendar.f77LYvtL0lH_vqSuSwCJ-1
 |MeasureGroup|Advice Line|LoosePrecedence||MeasureDimension|Measures|DimCalendar.vdX0nlRlNV5u23rPeZXY-195|DimCalendar.vdX0nlRlNV5u23rPeZXY-187|DimCalendar.vdX0nlRlNV5u23rPeZXY-186
 |MeasureDimension|Measures|LoosePrecedence||DimensionMember|Bruttoumsatz|DimCalendar.vdX0nlRlNV5u23rPeZXY-202|DimCalendar.vdX0nlRlNV5u23rPeZXY-186|DimCalendar.vdX0nlRlNV5u23rPeZXY-201
+|DimensionMember|Bruttoumsatz|LoosePrecedence||Function|<div>(Nettoumsatz *&nbsp;</div><div>Umsatzsteuer / 100)</div><div>+ Ausgleichsfaktor</div>|DimCalendar.vdX0nlRlNV5u23rPeZXY-231|DimCalendar.vdX0nlRlNV5u23rPeZXY-201|DimCalendar.vdX0nlRlNV5u23rPeZXY-222
 |MeasureDimension|Measures|LoosePrecedence||DimensionMember|Nettoumsatz|DimCalendar.vdX0nlRlNV5u23rPeZXY-301|DimCalendar.vdX0nlRlNV5u23rPeZXY-186|DimCalendar.vdX0nlRlNV5u23rPeZXY-296

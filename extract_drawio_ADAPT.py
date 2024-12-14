@@ -31,7 +31,7 @@ def extract_information(xml_path, base_name):
         shape_id = user_object.get('id')
 
         # Determine if this is a shape or a connection
-        if btelligentLibrary == 'ADAPT' and adapttype in ["Dimension", "LoosePrecedence", "Hierarchy", "StrictPrecedence", "HierarchyLevel", "Comment", "DimensionMember", "DimensionScope", "Function",  "Attribute", "MeasureGroup", "MeasureDimension"]: 
+        if btelligentLibrary == 'ADAPT' and adapttype in ["Dimension", "LoosePrecedence", "Hierarchy", "StrictPrecedence", "HierarchyLevel", "Comment", "DimensionMember", "DimensionScope", "Function",  "Attribute", "MeasureGroup", "MeasureDimension", "FullyExclusive", "FullyOverlapping"]: 
             #, "Hub", "Link", "Satellite", "Hub-to-Sat", "Hub-to-Link-N", "Hub-to-Link-1"]:
             mx_cell = user_object.find('./mxCell')
             
