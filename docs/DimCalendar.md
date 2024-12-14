@@ -25,6 +25,8 @@
 |DimCalendar.vdX0nlRlNV5u23rPeZXY-150|Attribute|Weekday|
 |DimCalendar.vdX0nlRlNV5u23rPeZXY-186|MeasureDimension|Measures|
 |DimCalendar.vdX0nlRlNV5u23rPeZXY-187|MeasureGroup|Advice Line|
+|DimCalendar.vdX0nlRlNV5u23rPeZXY-201|DimensionMember|Bruttoumsatz|
+|DimCalendar.vdX0nlRlNV5u23rPeZXY-296|DimensionMember|Nettoumsatz|
 
 ## recognized connections from b.telligent ADAPT library:
 
@@ -44,3 +46,5 @@
 |HierarchyLevel|Day|LoosePrecedence||Attribute|Weekday|DimCalendar.vdX0nlRlNV5u23rPeZXY-153|DimCalendar.vdX0nlRlNV5u23rPeZXY-109|DimCalendar.vdX0nlRlNV5u23rPeZXY-150
 |MeasureGroup|Advice Line|LoosePrecedence|Transaction|Dimension|Calendar|DimCalendar.vdX0nlRlNV5u23rPeZXY-171|DimCalendar.vdX0nlRlNV5u23rPeZXY-187|DimCalendar.f77LYvtL0lH_vqSuSwCJ-1
 |MeasureGroup|Advice Line|LoosePrecedence||MeasureDimension|Measures|DimCalendar.vdX0nlRlNV5u23rPeZXY-195|DimCalendar.vdX0nlRlNV5u23rPeZXY-187|DimCalendar.vdX0nlRlNV5u23rPeZXY-186
+|MeasureDimension|Measures|LoosePrecedence||DimensionMember|Bruttoumsatz|DimCalendar.vdX0nlRlNV5u23rPeZXY-202|DimCalendar.vdX0nlRlNV5u23rPeZXY-186|DimCalendar.vdX0nlRlNV5u23rPeZXY-201
+|MeasureDimension|Measures|LoosePrecedence||DimensionMember|Nettoumsatz|DimCalendar.vdX0nlRlNV5u23rPeZXY-301|DimCalendar.vdX0nlRlNV5u23rPeZXY-186|DimCalendar.vdX0nlRlNV5u23rPeZXY-296

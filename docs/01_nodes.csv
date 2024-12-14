@@ -20,6 +20,8 @@ DimCalendar,DimCalendar.vdX0nlRlNV5u23rPeZXY-146,Attribute,Date
 DimCalendar,DimCalendar.vdX0nlRlNV5u23rPeZXY-150,Attribute,Weekday
 DimCalendar,DimCalendar.vdX0nlRlNV5u23rPeZXY-186,MeasureDimension,Measures
 DimCalendar,DimCalendar.vdX0nlRlNV5u23rPeZXY-187,MeasureGroup,Advice Line
+DimCalendar,DimCalendar.vdX0nlRlNV5u23rPeZXY-201,DimensionMember,Bruttoumsatz
+DimCalendar,DimCalendar.vdX0nlRlNV5u23rPeZXY-296,DimensionMember,Nettoumsatz
 DimLocation,DimLocation.none,none,none
 DimTimestamp,DimTimestamp.JcKF2ojR-ty8W29sog4p-103,Dimension,Timestamp
 DimTimestamp,DimTimestamp.JcKF2ojR-ty8W29sog4p-109,Hierarchy,HH_MM_SS

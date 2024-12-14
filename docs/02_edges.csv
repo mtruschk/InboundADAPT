@@ -14,5 +14,7 @@ DimCalendar,HierarchyLevel,Day,LoosePrecedence,,Attribute,Date,DimCalendar.vdX0n
 DimCalendar,HierarchyLevel,Day,LoosePrecedence,,Attribute,Weekday,DimCalendar.vdX0nlRlNV5u23rPeZXY-153,DimCalendar.vdX0nlRlNV5u23rPeZXY-109,DimCalendar.vdX0nlRlNV5u23rPeZXY-150
 DimCalendar,MeasureGroup,Advice Line,LoosePrecedence,Transaction,Dimension,Calendar,DimCalendar.vdX0nlRlNV5u23rPeZXY-171,DimCalendar.vdX0nlRlNV5u23rPeZXY-187,DimCalendar.f77LYvtL0lH_vqSuSwCJ-1
 DimCalendar,MeasureGroup,Advice Line,LoosePrecedence,,MeasureDimension,Measures,DimCalendar.vdX0nlRlNV5u23rPeZXY-195,DimCalendar.vdX0nlRlNV5u23rPeZXY-187,DimCalendar.vdX0nlRlNV5u23rPeZXY-186
+DimCalendar,MeasureDimension,Measures,LoosePrecedence,,DimensionMember,Bruttoumsatz,DimCalendar.vdX0nlRlNV5u23rPeZXY-202,DimCalendar.vdX0nlRlNV5u23rPeZXY-186,DimCalendar.vdX0nlRlNV5u23rPeZXY-201
+DimCalendar,MeasureDimension,Measures,LoosePrecedence,,DimensionMember,Nettoumsatz,DimCalendar.vdX0nlRlNV5u23rPeZXY-301,DimCalendar.vdX0nlRlNV5u23rPeZXY-186,DimCalendar.vdX0nlRlNV5u23rPeZXY-296
 DimLocation,none,none,SelfPrecedence,none,none,none,DimLocation.none,DimLocation.none,DimLocation.none
 FactAdviceLine,none,none,SelfPrecedence,none,none,none,FactAdviceLine.none,FactAdviceLine.none,FactAdviceLine.none
