@@ -28,9 +28,8 @@ DimCalendar,DimCalendar.vdX0nlRlNV5u23rPeZXY-321,DimensionScope,cold months
 DimCalendar,DimCalendar.vdX0nlRlNV5u23rPeZXY-324,DimensionScope,sunny months
 DimCalendar,DimCalendar.vdX0nlRlNV5u23rPeZXY-327,DimensionScope,windy months
 DimCalendar,DimCalendar.vdX0nlRlNV5u23rPeZXY-330,DimensionScope,rainy months
-DimCalendar,DimCalendar.vdX0nlRlNV5u23rPeZXY-333,FullyExclusive,Fully Exclusive
-DimCalendar,DimCalendar.vdX0nlRlNV5u23rPeZXY-338,FullyOverlapping,"Fully Overlapping
-"
+DimCalendar,DimCalendar.vdX0nlRlNV5u23rPeZXY-333,FullyExclusive,by temperature
+DimCalendar,DimCalendar.vdX0nlRlNV5u23rPeZXY-338,FullyOverlapping,by weather
 DimLocation,DimLocation.none,none,none
 DimTimestamp,DimTimestamp.JcKF2ojR-ty8W29sog4p-103,Dimension,Timestamp
 DimTimestamp,DimTimestamp.JcKF2ojR-ty8W29sog4p-109,Hierarchy,HH_MM_SS

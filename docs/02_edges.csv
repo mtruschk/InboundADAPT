@@ -16,17 +16,13 @@ DimCalendar,MeasureGroup,Advice Line,LoosePrecedence,Transaction,Dimension,Calen
 DimCalendar,MeasureGroup,Advice Line,LoosePrecedence,,MeasureDimension,Measures,DimCalendar.vdX0nlRlNV5u23rPeZXY-195,DimCalendar.vdX0nlRlNV5u23rPeZXY-187,DimCalendar.vdX0nlRlNV5u23rPeZXY-186
 DimCalendar,MeasureDimension,Measures,LoosePrecedence,,DimensionMember,Bruttoumsatz,DimCalendar.vdX0nlRlNV5u23rPeZXY-202,DimCalendar.vdX0nlRlNV5u23rPeZXY-186,DimCalendar.vdX0nlRlNV5u23rPeZXY-201
 DimCalendar,DimensionMember,Bruttoumsatz,LoosePrecedence,,Function,<div>(Nettoumsatz *&nbsp;</div><div>Umsatzsteuer / 100)</div><div>+ Ausgleichsfaktor</div>,DimCalendar.vdX0nlRlNV5u23rPeZXY-231,DimCalendar.vdX0nlRlNV5u23rPeZXY-201,DimCalendar.vdX0nlRlNV5u23rPeZXY-222
-DimCalendar,HierarchyLevel,Month (no year),LoosePrecedence,,FullyExclusive,Fully Exclusive,DimCalendar.vdX0nlRlNV5u23rPeZXY-236,DimCalendar.vdX0nlRlNV5u23rPeZXY-61,DimCalendar.vdX0nlRlNV5u23rPeZXY-333
-DimCalendar,HierarchyLevel,Month (no year),LoosePrecedence,,FullyOverlapping,"Fully Overlapping
-",DimCalendar.vdX0nlRlNV5u23rPeZXY-275,DimCalendar.vdX0nlRlNV5u23rPeZXY-61,DimCalendar.vdX0nlRlNV5u23rPeZXY-338
+DimCalendar,HierarchyLevel,Month (no year),LoosePrecedence,,FullyExclusive,by temperature,DimCalendar.vdX0nlRlNV5u23rPeZXY-236,DimCalendar.vdX0nlRlNV5u23rPeZXY-61,DimCalendar.vdX0nlRlNV5u23rPeZXY-333
+DimCalendar,HierarchyLevel,Month (no year),LoosePrecedence,,FullyOverlapping,by weather,DimCalendar.vdX0nlRlNV5u23rPeZXY-275,DimCalendar.vdX0nlRlNV5u23rPeZXY-61,DimCalendar.vdX0nlRlNV5u23rPeZXY-338
 DimCalendar,MeasureDimension,Measures,LoosePrecedence,,DimensionMember,Nettoumsatz,DimCalendar.vdX0nlRlNV5u23rPeZXY-301,DimCalendar.vdX0nlRlNV5u23rPeZXY-186,DimCalendar.vdX0nlRlNV5u23rPeZXY-296
-DimCalendar,FullyExclusive,Fully Exclusive,LoosePrecedence,,DimensionScope,warm months,DimCalendar.vdX0nlRlNV5u23rPeZXY-336,DimCalendar.vdX0nlRlNV5u23rPeZXY-333,DimCalendar.vdX0nlRlNV5u23rPeZXY-318
-DimCalendar,FullyExclusive,Fully Exclusive,LoosePrecedence,,DimensionScope,cold months,DimCalendar.vdX0nlRlNV5u23rPeZXY-337,DimCalendar.vdX0nlRlNV5u23rPeZXY-333,DimCalendar.vdX0nlRlNV5u23rPeZXY-321
-DimCalendar,FullyOverlapping,"Fully Overlapping
-",LoosePrecedence,,DimensionScope,sunny months,DimCalendar.vdX0nlRlNV5u23rPeZXY-341,DimCalendar.vdX0nlRlNV5u23rPeZXY-338,DimCalendar.vdX0nlRlNV5u23rPeZXY-324
-DimCalendar,FullyOverlapping,"Fully Overlapping
-",LoosePrecedence,,DimensionScope,windy months,DimCalendar.vdX0nlRlNV5u23rPeZXY-342,DimCalendar.vdX0nlRlNV5u23rPeZXY-338,DimCalendar.vdX0nlRlNV5u23rPeZXY-327
-DimCalendar,FullyOverlapping,"Fully Overlapping
-",LoosePrecedence,,DimensionScope,rainy months,DimCalendar.vdX0nlRlNV5u23rPeZXY-343,DimCalendar.vdX0nlRlNV5u23rPeZXY-338,DimCalendar.vdX0nlRlNV5u23rPeZXY-330
+DimCalendar,FullyExclusive,by temperature,LoosePrecedence,,DimensionScope,warm months,DimCalendar.vdX0nlRlNV5u23rPeZXY-336,DimCalendar.vdX0nlRlNV5u23rPeZXY-333,DimCalendar.vdX0nlRlNV5u23rPeZXY-318
+DimCalendar,FullyExclusive,by temperature,LoosePrecedence,,DimensionScope,cold months,DimCalendar.vdX0nlRlNV5u23rPeZXY-337,DimCalendar.vdX0nlRlNV5u23rPeZXY-333,DimCalendar.vdX0nlRlNV5u23rPeZXY-321
+DimCalendar,FullyOverlapping,by weather,LoosePrecedence,,DimensionScope,sunny months,DimCalendar.vdX0nlRlNV5u23rPeZXY-341,DimCalendar.vdX0nlRlNV5u23rPeZXY-338,DimCalendar.vdX0nlRlNV5u23rPeZXY-324
+DimCalendar,FullyOverlapping,by weather,LoosePrecedence,,DimensionScope,windy months,DimCalendar.vdX0nlRlNV5u23rPeZXY-342,DimCalendar.vdX0nlRlNV5u23rPeZXY-338,DimCalendar.vdX0nlRlNV5u23rPeZXY-327
+DimCalendar,FullyOverlapping,by weather,LoosePrecedence,,DimensionScope,rainy months,DimCalendar.vdX0nlRlNV5u23rPeZXY-343,DimCalendar.vdX0nlRlNV5u23rPeZXY-338,DimCalendar.vdX0nlRlNV5u23rPeZXY-330
 DimLocation,none,none,SelfPrecedence,none,none,none,DimLocation.none,DimLocation.none,DimLocation.none
 FactAdviceLine,none,none,SelfPrecedence,none,none,none,FactAdviceLine.none,FactAdviceLine.none,FactAdviceLine.none
