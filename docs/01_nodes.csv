@@ -24,7 +24,7 @@ DimCalendar,DimCalendar.vdX0nlRlNV5u23rPeZXY-201,DimensionMember,Bruttoumsatz
 DimCalendar,DimCalendar.vdX0nlRlNV5u23rPeZXY-222,Function,<div>(Nettoumsatz *&nbsp;</div><div>Umsatzsteuer / 100)</div><div>+ Ausgleichsfaktor</div>
 DimCalendar,DimCalendar.vdX0nlRlNV5u23rPeZXY-296,DimensionMember,Nettoumsatz
 DimCalendar,DimCalendar.vdX0nlRlNV5u23rPeZXY-302,Function,&lt;Function&gt;
-DimCalendar,DimCalendar.vdX0nlRlNV5u23rPeZXY-309,DimensionScope,<Dimension Scope>
+DimCalendar,DimCalendar.vdX0nlRlNV5u23rPeZXY-309,DimensionScope,Dimension Scope
 DimCalendar,DimCalendar.vdX0nlRlNV5u23rPeZXY-312,FullyOverlapping,"Fully Overlapping
 "
 DimCalendar,DimCalendar.vdX0nlRlNV5u23rPeZXY-315,FullyExclusive,Fully Exclusive

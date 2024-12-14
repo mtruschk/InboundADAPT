@@ -29,7 +29,7 @@
 |DimCalendar.vdX0nlRlNV5u23rPeZXY-222|Function|<div>(Nettoumsatz *&nbsp;</div><div>Umsatzsteuer / 100)</div><div>+ Ausgleichsfaktor</div>|
 |DimCalendar.vdX0nlRlNV5u23rPeZXY-296|DimensionMember|Nettoumsatz|
 |DimCalendar.vdX0nlRlNV5u23rPeZXY-302|Function|&lt;Function&gt;|
-|DimCalendar.vdX0nlRlNV5u23rPeZXY-309|DimensionScope|<Dimension Scope>|
+|DimCalendar.vdX0nlRlNV5u23rPeZXY-309|DimensionScope|Dimension Scope|
 |DimCalendar.vdX0nlRlNV5u23rPeZXY-312|FullyOverlapping|Fully Overlapping
 |
 |DimCalendar.vdX0nlRlNV5u23rPeZXY-315|FullyExclusive|Fully Exclusive|
