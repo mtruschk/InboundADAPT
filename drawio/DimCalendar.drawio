@@ -898,7 +898,7 @@
             <mxPoint x="7.200000000000003" y="8.800000000000011" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <object label="&lt;Dimension Scope&gt;" btelligentShapeType="DimensionScope" btelligentLibrary="ADAPT" id="vdX0nlRlNV5u23rPeZXY-309">
+        <object label="Dimension Scope" btelligentShapeType="DimensionScope" btelligentLibrary="ADAPT" id="vdX0nlRlNV5u23rPeZXY-309">
           <mxCell style="group;fillColor=default;connectable=1;verticalAlign=middle;align=left;spacingLeft=34;whiteSpace=wrap;" vertex="1" connectable="0" parent="1">
             <mxGeometry x="-401" y="660" width="160" height="40" as="geometry" />
           </mxCell>
@@ -926,14 +926,14 @@
         </object>
         <object label="Fully Exclusive" btelligentShapeType="FullyExclusive" btelligentLibrary="ADAPT" id="vdX0nlRlNV5u23rPeZXY-315">
           <mxCell style="group;connectable=1;fillColor=default;labelPosition=center;verticalLabelPosition=bottom;align=center;verticalAlign=top;fontSize=10;fontStyle=2;whiteSpace=wrap;allowArrows=0;resizable=1;rotatable=1;cloneable=0;deletable=1;movable=1;editable=1;locked=0;pointerEvents=0;expand=0;" vertex="1" connectable="0" parent="1">
-            <mxGeometry x="-430" y="880" width="40" height="40" as="geometry" />
+            <mxGeometry x="-441" y="880" width="40" height="40" as="geometry" />
           </mxCell>
         </object>
         <mxCell id="vdX0nlRlNV5u23rPeZXY-316" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;strokeColor=none;connectable=1;editable=1;allowArrows=0;resizable=1;rotatable=1;cloneable=0;deletable=1;movable=1;locked=0;pointerEvents=0;expand=0;" vertex="1" parent="vdX0nlRlNV5u23rPeZXY-315">
           <mxGeometry x="10" y="10" width="20" height="20" as="geometry" />
         </mxCell>
         <object label="" ADAPT="FullyExclusive" id="vdX0nlRlNV5u23rPeZXY-317">
-          <mxCell style="shape=sumEllipse;perimeter=ellipsePerimeter;html=1;backgroundOutline=1;fontSize=10;fontStyle=2;verticalAlign=middle;labelPosition=center;verticalLabelPosition=middle;align=center;whiteSpace=wrap;connectable=1;noLabel=1;fillColor=none;editable=1;movable=1;resizable=1;rotatable=1;deletable=1;locked=0;" vertex="1" parent="vdX0nlRlNV5u23rPeZXY-315">
+          <mxCell style="shape=sumEllipse;perimeter=ellipsePerimeter;html=1;backgroundOutline=1;fontSize=10;fontStyle=2;verticalAlign=middle;labelPosition=center;verticalLabelPosition=middle;align=center;whiteSpace=wrap;connectable=1;noLabel=1;fillColor=none;editable=0;movable=1;resizable=1;rotatable=1;deletable=1;locked=0;cloneable=0;" vertex="1" parent="vdX0nlRlNV5u23rPeZXY-315">
             <mxGeometry width="40" height="40" as="geometry" />
           </mxCell>
         </object>
