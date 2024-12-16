@@ -30,6 +30,11 @@ DimCalendar,DimCalendar.vdX0nlRlNV5u23rPeZXY-327,DimensionScope,windy months
 DimCalendar,DimCalendar.vdX0nlRlNV5u23rPeZXY-330,DimensionScope,rainy months
 DimCalendar,DimCalendar.vdX0nlRlNV5u23rPeZXY-333,FullyExclusive,by temperature
 DimCalendar,DimCalendar.vdX0nlRlNV5u23rPeZXY-338,FullyOverlapping,by weather
+DimClient,DimClient.Q3E0rVoIe7EGEsI8NTwv-1,Dimension,Client
+DimClient,DimClient.Q3E0rVoIe7EGEsI8NTwv-7,Hierarchy,Client Hierarchy
+DimClient,DimClient.Q3E0rVoIe7EGEsI8NTwv-15,HierarchyLevel,Client
+DimClient,DimClient.Q3E0rVoIe7EGEsI8NTwv-20,Attribute,Postcode
+DimClient,DimClient.Q3E0rVoIe7EGEsI8NTwv-23,Attribute,Name
 DimLocation,DimLocation.none,none,none
 DimTimestamp,DimTimestamp.JcKF2ojR-ty8W29sog4p-103,Dimension,Timestamp
 DimTimestamp,DimTimestamp.JcKF2ojR-ty8W29sog4p-109,Hierarchy,HHMMSS Hierarchy

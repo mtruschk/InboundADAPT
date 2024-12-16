@@ -24,5 +24,9 @@ DimCalendar,FullyExclusive,by temperature,LoosePrecedence,,DimensionScope,cold m
 DimCalendar,FullyOverlapping,by weather,LoosePrecedence,,DimensionScope,sunny months,DimCalendar.vdX0nlRlNV5u23rPeZXY-341,DimCalendar.vdX0nlRlNV5u23rPeZXY-338,DimCalendar.vdX0nlRlNV5u23rPeZXY-324
 DimCalendar,FullyOverlapping,by weather,LoosePrecedence,,DimensionScope,windy months,DimCalendar.vdX0nlRlNV5u23rPeZXY-342,DimCalendar.vdX0nlRlNV5u23rPeZXY-338,DimCalendar.vdX0nlRlNV5u23rPeZXY-327
 DimCalendar,FullyOverlapping,by weather,LoosePrecedence,,DimensionScope,rainy months,DimCalendar.vdX0nlRlNV5u23rPeZXY-343,DimCalendar.vdX0nlRlNV5u23rPeZXY-338,DimCalendar.vdX0nlRlNV5u23rPeZXY-330
+DimClient,Dimension,Client,LoosePrecedence,,Hierarchy,Client Hierarchy,DimClient.Q3E0rVoIe7EGEsI8NTwv-26,DimClient.Q3E0rVoIe7EGEsI8NTwv-1,DimClient.Q3E0rVoIe7EGEsI8NTwv-7
+DimClient,Hierarchy,Client Hierarchy,StrictPrecedence,,HierarchyLevel,Client,DimClient.Q3E0rVoIe7EGEsI8NTwv-27,DimClient.Q3E0rVoIe7EGEsI8NTwv-7,DimClient.Q3E0rVoIe7EGEsI8NTwv-15
+DimClient,HierarchyLevel,Client,LoosePrecedence,,Attribute,Name,DimClient.Q3E0rVoIe7EGEsI8NTwv-31,DimClient.Q3E0rVoIe7EGEsI8NTwv-15,DimClient.Q3E0rVoIe7EGEsI8NTwv-23
+DimClient,HierarchyLevel,Client,LoosePrecedence,,Attribute,Postcode,DimClient.Q3E0rVoIe7EGEsI8NTwv-32,DimClient.Q3E0rVoIe7EGEsI8NTwv-15,DimClient.Q3E0rVoIe7EGEsI8NTwv-20
 DimLocation,none,none,SelfPrecedence,none,none,none,DimLocation.none,DimLocation.none,DimLocation.none
 FactAdviceLine,none,none,SelfPrecedence,none,none,none,FactAdviceLine.none,FactAdviceLine.none,FactAdviceLine.none
