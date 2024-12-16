@@ -1,5 +1,9 @@
 base_name,shape_id,shape_type,label
 ADAPT_Template,ADAPT_Template.none,none,none
+DimArticle,DimArticle.3ULKT6b0YpKw7mlDAFzM-1,Dimension,Article
+DimArticle,DimArticle.3ULKT6b0YpKw7mlDAFzM-13,Hierarchy,Article Hierarchy
+DimArticle,DimArticle.3ULKT6b0YpKw7mlDAFzM-21,HierarchyLevel,Article
+DimArticle,DimArticle.3ULKT6b0YpKw7mlDAFzM-28,Attribute,EAN
 DimCalendar,DimCalendar.f77LYvtL0lH_vqSuSwCJ-1,Dimension,Calendar
 DimCalendar,DimCalendar.f77LYvtL0lH_vqSuSwCJ-7,Hierarchy,QM Hierarchy (no year)
 DimCalendar,DimCalendar.f77LYvtL0lH_vqSuSwCJ-15,Hierarchy,YQMD Hierarchy
@@ -35,7 +39,33 @@ DimClient,DimClient.Q3E0rVoIe7EGEsI8NTwv-7,Hierarchy,Client Hierarchy
 DimClient,DimClient.Q3E0rVoIe7EGEsI8NTwv-15,HierarchyLevel,Client
 DimClient,DimClient.Q3E0rVoIe7EGEsI8NTwv-20,Attribute,Postcode
 DimClient,DimClient.Q3E0rVoIe7EGEsI8NTwv-23,Attribute,Name
-DimLocation,DimLocation.none,none,none
+DimCountry,DimCountry._IXQpRyezbz_NSWvRTIf-1,Dimension,Country
+DimCountry,DimCountry._IXQpRyezbz_NSWvRTIf-13,Hierarchy,Country Hierarchy
+DimCountry,DimCountry._IXQpRyezbz_NSWvRTIf-21,HierarchyLevel,Region
+DimCountry,DimCountry._IXQpRyezbz_NSWvRTIf-26,HierarchyLevel,Country
+DimCountry,DimCountry._IXQpRyezbz_NSWvRTIf-34,FullyExclusive,Region
+DimCountry,DimCountry._IXQpRyezbz_NSWvRTIf-37,DimensionScope,EMEA
+DimCountry,DimCountry._IXQpRyezbz_NSWvRTIf-42,DimensionScope,Asia Pacific
+DimCountry,DimCountry._IXQpRyezbz_NSWvRTIf-45,DimensionScope,Americas
+DimCountry,DimCountry._IXQpRyezbz_NSWvRTIf-50,FullyExclusive,EU Membership
+DimCountry,DimCountry._IXQpRyezbz_NSWvRTIf-53,DimensionScope,EU Member
+DimCountry,DimCountry._IXQpRyezbz_NSWvRTIf-58,DimensionScope,Non-EU
+DimCountry,DimCountry._IXQpRyezbz_NSWvRTIf-62,FullyExclusive,Domestic or Foreign
+DimCountry,DimCountry._IXQpRyezbz_NSWvRTIf-65,DimensionScope,Domestic
+DimCountry,DimCountry._IXQpRyezbz_NSWvRTIf-70,DimensionScope,Non-EU
+DimCountry,DimCountry._IXQpRyezbz_NSWvRTIf-74,DimensionMember,Germany
+DimLocation,DimLocation.pI8diWF3I-Tx-rrlMoEu-1,Dimension,Location
+DimLocation,DimLocation.pI8diWF3I-Tx-rrlMoEu-7,Hierarchy,Functional Hierarchy
+DimLocation,DimLocation.pI8diWF3I-Tx-rrlMoEu-15,Hierarchy,Geographical Hierarchy
+DimLocation,DimLocation.pI8diWF3I-Tx-rrlMoEu-23,HierarchyLevel,Location
+DimLocation,DimLocation.pI8diWF3I-Tx-rrlMoEu-28,HierarchyLevel,Location Type
+DimLocation,DimLocation.pI8diWF3I-Tx-rrlMoEu-33,Attribute,Name
+DimLocation,DimLocation.pI8diWF3I-Tx-rrlMoEu-36,Attribute,Address
+DimLocation,DimLocation.pI8diWF3I-Tx-rrlMoEu-39,Attribute,Country
+DimLocation,DimLocation.pI8diWF3I-Tx-rrlMoEu-42,HierarchyLevel,Country
+DimLocation,DimLocation.pI8diWF3I-Tx-rrlMoEu-47,HierarchyLevel,Zone
+DimLocation,DimLocation.pI8diWF3I-Tx-rrlMoEu-52,Comment,"Location always means a ""Fiege Location"""
+DimLocation,DimLocation.pI8diWF3I-Tx-rrlMoEu-63,Dimension,Location
 DimTimestamp,DimTimestamp.JcKF2ojR-ty8W29sog4p-103,Dimension,Timestamp
 DimTimestamp,DimTimestamp.JcKF2ojR-ty8W29sog4p-109,Hierarchy,HHMMSS Hierarchy
 FactAdviceLine,FactAdviceLine.none,none,none

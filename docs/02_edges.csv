@@ -1,5 +1,8 @@
 base_name,source_type,source_label,connection_type,connection_label,target_type,target_label,connection_id,source_shape_id,target_shape_id
 ADAPT_Template,none,none,SelfPrecedence,none,none,none,ADAPT_Template.none,ADAPT_Template.none,ADAPT_Template.none
+DimArticle,Dimension,Article,LoosePrecedence,,Hierarchy,Article Hierarchy,DimArticle.3ULKT6b0YpKw7mlDAFzM-26,DimArticle.3ULKT6b0YpKw7mlDAFzM-1,DimArticle.3ULKT6b0YpKw7mlDAFzM-13
+DimArticle,Hierarchy,Article Hierarchy,StrictPrecedence,,HierarchyLevel,Article,DimArticle.3ULKT6b0YpKw7mlDAFzM-27,DimArticle.3ULKT6b0YpKw7mlDAFzM-13,DimArticle.3ULKT6b0YpKw7mlDAFzM-21
+DimArticle,HierarchyLevel,Article,LoosePrecedence,,Attribute,EAN,DimArticle.3ULKT6b0YpKw7mlDAFzM-31,DimArticle.3ULKT6b0YpKw7mlDAFzM-21,DimArticle.3ULKT6b0YpKw7mlDAFzM-28
 DimCalendar,Dimension,Calendar,LoosePrecedence,,Hierarchy,QM Hierarchy (no year),DimCalendar.f77LYvtL0lH_vqSuSwCJ-39,DimCalendar.f77LYvtL0lH_vqSuSwCJ-1,DimCalendar.f77LYvtL0lH_vqSuSwCJ-7
 DimCalendar,HierarchyLevel,Quarter (no year),StrictPrecedence,,HierarchyLevel,Month (no year),DimCalendar.vdX0nlRlNV5u23rPeZXY-66,DimCalendar.vdX0nlRlNV5u23rPeZXY-55,DimCalendar.vdX0nlRlNV5u23rPeZXY-61
 DimCalendar,HierarchyLevel,Year,StrictPrecedence,,HierarchyLevel,Quarter,DimCalendar.vdX0nlRlNV5u23rPeZXY-78,DimCalendar.vdX0nlRlNV5u23rPeZXY-67,DimCalendar.vdX0nlRlNV5u23rPeZXY-73
@@ -28,5 +31,18 @@ DimClient,Dimension,Client,LoosePrecedence,,Hierarchy,Client Hierarchy,DimClient
 DimClient,Hierarchy,Client Hierarchy,StrictPrecedence,,HierarchyLevel,Client,DimClient.Q3E0rVoIe7EGEsI8NTwv-27,DimClient.Q3E0rVoIe7EGEsI8NTwv-7,DimClient.Q3E0rVoIe7EGEsI8NTwv-15
 DimClient,HierarchyLevel,Client,LoosePrecedence,,Attribute,Name,DimClient.Q3E0rVoIe7EGEsI8NTwv-31,DimClient.Q3E0rVoIe7EGEsI8NTwv-15,DimClient.Q3E0rVoIe7EGEsI8NTwv-23
 DimClient,HierarchyLevel,Client,LoosePrecedence,,Attribute,Postcode,DimClient.Q3E0rVoIe7EGEsI8NTwv-32,DimClient.Q3E0rVoIe7EGEsI8NTwv-15,DimClient.Q3E0rVoIe7EGEsI8NTwv-20
-DimLocation,none,none,SelfPrecedence,none,none,none,DimLocation.none,DimLocation.none,DimLocation.none
+DimCountry,Dimension,Country,LoosePrecedence,,Hierarchy,Country Hierarchy,DimCountry._IXQpRyezbz_NSWvRTIf-31,DimCountry._IXQpRyezbz_NSWvRTIf-1,DimCountry._IXQpRyezbz_NSWvRTIf-13
+DimCountry,Hierarchy,Country Hierarchy,StrictPrecedence,,HierarchyLevel,Region,DimCountry._IXQpRyezbz_NSWvRTIf-32,DimCountry._IXQpRyezbz_NSWvRTIf-13,DimCountry._IXQpRyezbz_NSWvRTIf-21
+DimCountry,HierarchyLevel,Region,StrictPrecedence,,HierarchyLevel,Country,DimCountry._IXQpRyezbz_NSWvRTIf-33,DimCountry._IXQpRyezbz_NSWvRTIf-21,DimCountry._IXQpRyezbz_NSWvRTIf-26
+DimLocation,HierarchyLevel,Country,LoosePrecedence,,Attribute,Country,DimLocation.pI8diWF3I-Tx-rrlMoEu-53,DimLocation.pI8diWF3I-Tx-rrlMoEu-42,DimLocation.pI8diWF3I-Tx-rrlMoEu-39
+DimLocation,HierarchyLevel,Location,LoosePrecedence,,Attribute,Name,DimLocation.pI8diWF3I-Tx-rrlMoEu-54,DimLocation.pI8diWF3I-Tx-rrlMoEu-23,DimLocation.pI8diWF3I-Tx-rrlMoEu-33
+DimLocation,HierarchyLevel,Location,LoosePrecedence,,Attribute,Address,DimLocation.pI8diWF3I-Tx-rrlMoEu-55,DimLocation.pI8diWF3I-Tx-rrlMoEu-23,DimLocation.pI8diWF3I-Tx-rrlMoEu-36
+DimLocation,HierarchyLevel,Zone,StrictPrecedence,,HierarchyLevel,Location,DimLocation.pI8diWF3I-Tx-rrlMoEu-56,DimLocation.pI8diWF3I-Tx-rrlMoEu-47,DimLocation.pI8diWF3I-Tx-rrlMoEu-23
+DimLocation,HierarchyLevel,Location Type,StrictPrecedence,,HierarchyLevel,Location,DimLocation.pI8diWF3I-Tx-rrlMoEu-57,DimLocation.pI8diWF3I-Tx-rrlMoEu-28,DimLocation.pI8diWF3I-Tx-rrlMoEu-23
+DimLocation,Hierarchy,Functional Hierarchy,StrictPrecedence,,HierarchyLevel,Location Type,DimLocation.pI8diWF3I-Tx-rrlMoEu-58,DimLocation.pI8diWF3I-Tx-rrlMoEu-7,DimLocation.pI8diWF3I-Tx-rrlMoEu-28
+DimLocation,Hierarchy,Geographical Hierarchy,StrictPrecedence,,HierarchyLevel,Country,DimLocation.pI8diWF3I-Tx-rrlMoEu-59,DimLocation.pI8diWF3I-Tx-rrlMoEu-15,DimLocation.pI8diWF3I-Tx-rrlMoEu-42
+DimLocation,HierarchyLevel,Country,StrictPrecedence,,HierarchyLevel,Zone,DimLocation.pI8diWF3I-Tx-rrlMoEu-60,DimLocation.pI8diWF3I-Tx-rrlMoEu-42,DimLocation.pI8diWF3I-Tx-rrlMoEu-47
+DimLocation,Dimension,Location,LoosePrecedence,,Hierarchy,Geographical Hierarchy,DimLocation.pI8diWF3I-Tx-rrlMoEu-61,DimLocation.pI8diWF3I-Tx-rrlMoEu-1,DimLocation.pI8diWF3I-Tx-rrlMoEu-15
+DimLocation,Dimension,Location,LoosePrecedence,,Hierarchy,Functional Hierarchy,DimLocation.pI8diWF3I-Tx-rrlMoEu-62,DimLocation.pI8diWF3I-Tx-rrlMoEu-1,DimLocation.pI8diWF3I-Tx-rrlMoEu-7
+DimLocation,Attribute,Country,LoosePrecedence,,Dimension,Location,DimLocation.pI8diWF3I-Tx-rrlMoEu-69,DimLocation.pI8diWF3I-Tx-rrlMoEu-39,DimLocation.pI8diWF3I-Tx-rrlMoEu-63
 FactAdviceLine,none,none,SelfPrecedence,none,none,none,FactAdviceLine.none,FactAdviceLine.none,FactAdviceLine.none
