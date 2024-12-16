@@ -5,10 +5,30 @@
 
 |Shape ID|Shape Type|Label|
 |--------|----------|-----|
-|FactAdviceLine.none|none|none|
+|FactAdviceLine.GLuP2zMcqy0yixXODWUq-1|MeasureGroup|Advice Line|
+|FactAdviceLine.GLuP2zMcqy0yixXODWUq-8|Dimension|Client|
+|FactAdviceLine.GLuP2zMcqy0yixXODWUq-14|Dimension|Timestamp|
+|FactAdviceLine.GLuP2zMcqy0yixXODWUq-20|Dimension|Calendar|
+|FactAdviceLine.GLuP2zMcqy0yixXODWUq-26|Dimension|Calendar|
+|FactAdviceLine.GLuP2zMcqy0yixXODWUq-32|Dimension|Advice Line|
+|FactAdviceLine.GLuP2zMcqy0yixXODWUq-38|Dimension|Location|
+|FactAdviceLine.GLuP2zMcqy0yixXODWUq-44|Dimension|Process Status|
+|FactAdviceLine.GLuP2zMcqy0yixXODWUq-50|Dimension|Article|
+|FactAdviceLine.GLuP2zMcqy0yixXODWUq-65|MeasureDimension|Advice Line Measures|
+|FactAdviceLine.GLuP2zMcqy0yixXODWUq-73|DimensionMember|pieces|
+|FactAdviceLine.GLuP2zMcqy0yixXODWUq-78|DimensionMember|avg pieces per advice line|
 
 ## recognized connections from b.telligent ADAPT library:
 
 |Source Type|Source Label|Connection Type|Label|Target Type|Target Label|Connection ID|Source ID|Target ID|
 |-----------|------------|---------------|-----|-----------|------------|-------------|---------|---------|
-|none|none|SelfPrecedence|none|none|none|FactAdviceLine.none|FactAdviceLine.none|FactAdviceLine.none
+|MeasureGroup|Advice Line|LoosePrecedence||Dimension|Client|FactAdviceLine.GLuP2zMcqy0yixXODWUq-56|FactAdviceLine.GLuP2zMcqy0yixXODWUq-1|FactAdviceLine.GLuP2zMcqy0yixXODWUq-8
+|MeasureGroup|Advice Line|LoosePrecedence||Dimension|Location|FactAdviceLine.GLuP2zMcqy0yixXODWUq-57|FactAdviceLine.GLuP2zMcqy0yixXODWUq-1|FactAdviceLine.GLuP2zMcqy0yixXODWUq-38
+|MeasureGroup|Advice Line|LoosePrecedence||Dimension|Article|FactAdviceLine.GLuP2zMcqy0yixXODWUq-58|FactAdviceLine.GLuP2zMcqy0yixXODWUq-1|FactAdviceLine.GLuP2zMcqy0yixXODWUq-50
+|MeasureGroup|Advice Line|LoosePrecedence||Dimension|Advice Line|FactAdviceLine.GLuP2zMcqy0yixXODWUq-59|FactAdviceLine.GLuP2zMcqy0yixXODWUq-1|FactAdviceLine.GLuP2zMcqy0yixXODWUq-32
+|MeasureGroup|Advice Line|LoosePrecedence||Dimension|Process Status|FactAdviceLine.GLuP2zMcqy0yixXODWUq-60|FactAdviceLine.GLuP2zMcqy0yixXODWUq-1|FactAdviceLine.GLuP2zMcqy0yixXODWUq-44
+|MeasureGroup|Advice Line|LoosePrecedence|transaction|Dimension|Calendar|FactAdviceLine.GLuP2zMcqy0yixXODWUq-61|FactAdviceLine.GLuP2zMcqy0yixXODWUq-1|FactAdviceLine.GLuP2zMcqy0yixXODWUq-26
+|MeasureGroup|Advice Line|LoosePrecedence|transaction|Dimension|Timestamp|FactAdviceLine.GLuP2zMcqy0yixXODWUq-62|FactAdviceLine.GLuP2zMcqy0yixXODWUq-1|FactAdviceLine.GLuP2zMcqy0yixXODWUq-14
+|MeasureGroup|Advice Line|LoosePrecedence|finished|Dimension|Calendar|FactAdviceLine.GLuP2zMcqy0yixXODWUq-63|FactAdviceLine.GLuP2zMcqy0yixXODWUq-1|FactAdviceLine.GLuP2zMcqy0yixXODWUq-20
+|MeasureGroup|Advice Line|LoosePrecedence||MeasureDimension|Advice Line Measures|FactAdviceLine.GLuP2zMcqy0yixXODWUq-72|FactAdviceLine.GLuP2zMcqy0yixXODWUq-1|FactAdviceLine.GLuP2zMcqy0yixXODWUq-65
+|MeasureDimension|Advice Line Measures|LoosePrecedence||DimensionMember|pieces|FactAdviceLine.GLuP2zMcqy0yixXODWUq-83|FactAdviceLine.GLuP2zMcqy0yixXODWUq-65|FactAdviceLine.GLuP2zMcqy0yixXODWUq-73

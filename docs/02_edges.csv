@@ -1,5 +1,9 @@
 base_name,source_type,source_label,connection_type,connection_label,target_type,target_label,connection_id,source_shape_id,target_shape_id
 ADAPT_Template,none,none,SelfPrecedence,none,none,none,ADAPT_Template.none,ADAPT_Template.none,ADAPT_Template.none
+DimAdvice,Dimension,Advice,LoosePrecedence,,Attribute,Advice ID,DimAdvice.0bGNPsY97k1aB0GLz53n-10,DimAdvice.0bGNPsY97k1aB0GLz53n-1,DimAdvice.0bGNPsY97k1aB0GLz53n-7
+DimAdviceLine,Dimension,Advice Line,LoosePrecedence,,Attribute,Advice Line ID,DimAdviceLine.VVB_PqHr9NoXP4snUmqs-13,DimAdviceLine.VVB_PqHr9NoXP4snUmqs-1,DimAdviceLine.VVB_PqHr9NoXP4snUmqs-7
+DimAdviceLine,Dimension,Advice Line,LoosePrecedence,,Attribute,Advice ID,DimAdviceLine.VVB_PqHr9NoXP4snUmqs-14,DimAdviceLine.VVB_PqHr9NoXP4snUmqs-1,DimAdviceLine.VVB_PqHr9NoXP4snUmqs-10
+DimAdviceLine,Attribute,Advice ID,LoosePrecedence,,Dimension,Advice,DimAdviceLine.VVB_PqHr9NoXP4snUmqs-21,DimAdviceLine.VVB_PqHr9NoXP4snUmqs-10,DimAdviceLine.VVB_PqHr9NoXP4snUmqs-15
 DimArticle,Dimension,Article,LoosePrecedence,,Hierarchy,Article Hierarchy,DimArticle.3ULKT6b0YpKw7mlDAFzM-26,DimArticle.3ULKT6b0YpKw7mlDAFzM-1,DimArticle.3ULKT6b0YpKw7mlDAFzM-13
 DimArticle,Hierarchy,Article Hierarchy,StrictPrecedence,,HierarchyLevel,Article,DimArticle.3ULKT6b0YpKw7mlDAFzM-27,DimArticle.3ULKT6b0YpKw7mlDAFzM-13,DimArticle.3ULKT6b0YpKw7mlDAFzM-21
 DimArticle,HierarchyLevel,Article,LoosePrecedence,,Attribute,EAN,DimArticle.3ULKT6b0YpKw7mlDAFzM-31,DimArticle.3ULKT6b0YpKw7mlDAFzM-21,DimArticle.3ULKT6b0YpKw7mlDAFzM-28
@@ -45,4 +49,17 @@ DimLocation,HierarchyLevel,Country,StrictPrecedence,,HierarchyLevel,Zone,DimLoca
 DimLocation,Dimension,Location,LoosePrecedence,,Hierarchy,Geographical Hierarchy,DimLocation.pI8diWF3I-Tx-rrlMoEu-61,DimLocation.pI8diWF3I-Tx-rrlMoEu-1,DimLocation.pI8diWF3I-Tx-rrlMoEu-15
 DimLocation,Dimension,Location,LoosePrecedence,,Hierarchy,Functional Hierarchy,DimLocation.pI8diWF3I-Tx-rrlMoEu-62,DimLocation.pI8diWF3I-Tx-rrlMoEu-1,DimLocation.pI8diWF3I-Tx-rrlMoEu-7
 DimLocation,Attribute,Country,LoosePrecedence,,Dimension,Location,DimLocation.pI8diWF3I-Tx-rrlMoEu-69,DimLocation.pI8diWF3I-Tx-rrlMoEu-39,DimLocation.pI8diWF3I-Tx-rrlMoEu-63
-FactAdviceLine,none,none,SelfPrecedence,none,none,none,FactAdviceLine.none,FactAdviceLine.none,FactAdviceLine.none
+DimProcessStatus,Dimension,Process Status,LoosePrecedence,,Hierarchy,Process Status Hierarchy,DimProcessStatus.qzKK9jRwpghbmKVsXcbc-25,DimProcessStatus.qzKK9jRwpghbmKVsXcbc-1,DimProcessStatus.qzKK9jRwpghbmKVsXcbc-7
+DimProcessStatus,Hierarchy,Process Status Hierarchy,StrictPrecedence,,HierarchyLevel,Level 1,DimProcessStatus.qzKK9jRwpghbmKVsXcbc-26,DimProcessStatus.qzKK9jRwpghbmKVsXcbc-7,DimProcessStatus.qzKK9jRwpghbmKVsXcbc-15
+DimProcessStatus,HierarchyLevel,Level 1,StrictPrecedence,,HierarchyLevel,Level X,DimProcessStatus.qzKK9jRwpghbmKVsXcbc-32,DimProcessStatus.qzKK9jRwpghbmKVsXcbc-15,DimProcessStatus.qzKK9jRwpghbmKVsXcbc-20
+DimProcessStatus,HierarchyLevel,Level X,StrictPrecedence,,HierarchyLevel,Level X,DimProcessStatus.qzKK9jRwpghbmKVsXcbc-73,DimProcessStatus.qzKK9jRwpghbmKVsXcbc-20,DimProcessStatus.qzKK9jRwpghbmKVsXcbc-68
+FactAdviceLine,MeasureGroup,Advice Line,LoosePrecedence,,Dimension,Client,FactAdviceLine.GLuP2zMcqy0yixXODWUq-56,FactAdviceLine.GLuP2zMcqy0yixXODWUq-1,FactAdviceLine.GLuP2zMcqy0yixXODWUq-8
+FactAdviceLine,MeasureGroup,Advice Line,LoosePrecedence,,Dimension,Location,FactAdviceLine.GLuP2zMcqy0yixXODWUq-57,FactAdviceLine.GLuP2zMcqy0yixXODWUq-1,FactAdviceLine.GLuP2zMcqy0yixXODWUq-38
+FactAdviceLine,MeasureGroup,Advice Line,LoosePrecedence,,Dimension,Article,FactAdviceLine.GLuP2zMcqy0yixXODWUq-58,FactAdviceLine.GLuP2zMcqy0yixXODWUq-1,FactAdviceLine.GLuP2zMcqy0yixXODWUq-50
+FactAdviceLine,MeasureGroup,Advice Line,LoosePrecedence,,Dimension,Advice Line,FactAdviceLine.GLuP2zMcqy0yixXODWUq-59,FactAdviceLine.GLuP2zMcqy0yixXODWUq-1,FactAdviceLine.GLuP2zMcqy0yixXODWUq-32
+FactAdviceLine,MeasureGroup,Advice Line,LoosePrecedence,,Dimension,Process Status,FactAdviceLine.GLuP2zMcqy0yixXODWUq-60,FactAdviceLine.GLuP2zMcqy0yixXODWUq-1,FactAdviceLine.GLuP2zMcqy0yixXODWUq-44
+FactAdviceLine,MeasureGroup,Advice Line,LoosePrecedence,transaction,Dimension,Calendar,FactAdviceLine.GLuP2zMcqy0yixXODWUq-61,FactAdviceLine.GLuP2zMcqy0yixXODWUq-1,FactAdviceLine.GLuP2zMcqy0yixXODWUq-26
+FactAdviceLine,MeasureGroup,Advice Line,LoosePrecedence,transaction,Dimension,Timestamp,FactAdviceLine.GLuP2zMcqy0yixXODWUq-62,FactAdviceLine.GLuP2zMcqy0yixXODWUq-1,FactAdviceLine.GLuP2zMcqy0yixXODWUq-14
+FactAdviceLine,MeasureGroup,Advice Line,LoosePrecedence,finished,Dimension,Calendar,FactAdviceLine.GLuP2zMcqy0yixXODWUq-63,FactAdviceLine.GLuP2zMcqy0yixXODWUq-1,FactAdviceLine.GLuP2zMcqy0yixXODWUq-20
+FactAdviceLine,MeasureGroup,Advice Line,LoosePrecedence,,MeasureDimension,Advice Line Measures,FactAdviceLine.GLuP2zMcqy0yixXODWUq-72,FactAdviceLine.GLuP2zMcqy0yixXODWUq-1,FactAdviceLine.GLuP2zMcqy0yixXODWUq-65
+FactAdviceLine,MeasureDimension,Advice Line Measures,LoosePrecedence,,DimensionMember,pieces,FactAdviceLine.GLuP2zMcqy0yixXODWUq-83,FactAdviceLine.GLuP2zMcqy0yixXODWUq-65,FactAdviceLine.GLuP2zMcqy0yixXODWUq-73

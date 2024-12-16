@@ -1,5 +1,11 @@
 base_name,shape_id,shape_type,label
 ADAPT_Template,ADAPT_Template.none,none,none
+DimAdvice,DimAdvice.0bGNPsY97k1aB0GLz53n-1,Dimension,Advice
+DimAdvice,DimAdvice.0bGNPsY97k1aB0GLz53n-7,Attribute,Advice ID
+DimAdviceLine,DimAdviceLine.VVB_PqHr9NoXP4snUmqs-1,Dimension,Advice Line
+DimAdviceLine,DimAdviceLine.VVB_PqHr9NoXP4snUmqs-7,Attribute,Advice Line ID
+DimAdviceLine,DimAdviceLine.VVB_PqHr9NoXP4snUmqs-10,Attribute,Advice ID
+DimAdviceLine,DimAdviceLine.VVB_PqHr9NoXP4snUmqs-15,Dimension,Advice
 DimArticle,DimArticle.3ULKT6b0YpKw7mlDAFzM-1,Dimension,Article
 DimArticle,DimArticle.3ULKT6b0YpKw7mlDAFzM-13,Hierarchy,Article Hierarchy
 DimArticle,DimArticle.3ULKT6b0YpKw7mlDAFzM-21,HierarchyLevel,Article
@@ -66,6 +72,30 @@ DimLocation,DimLocation.pI8diWF3I-Tx-rrlMoEu-42,HierarchyLevel,Country
 DimLocation,DimLocation.pI8diWF3I-Tx-rrlMoEu-47,HierarchyLevel,Zone
 DimLocation,DimLocation.pI8diWF3I-Tx-rrlMoEu-52,Comment,"Location always means a ""Fiege Location"""
 DimLocation,DimLocation.pI8diWF3I-Tx-rrlMoEu-63,Dimension,Location
+DimProcessStatus,DimProcessStatus.qzKK9jRwpghbmKVsXcbc-1,Dimension,Process Status
+DimProcessStatus,DimProcessStatus.qzKK9jRwpghbmKVsXcbc-7,Hierarchy,Process Status Hierarchy
+DimProcessStatus,DimProcessStatus.qzKK9jRwpghbmKVsXcbc-15,HierarchyLevel,Level 1
+DimProcessStatus,DimProcessStatus.qzKK9jRwpghbmKVsXcbc-20,HierarchyLevel,Level X
+DimProcessStatus,DimProcessStatus.qzKK9jRwpghbmKVsXcbc-33,FullyExclusive,Direction
+DimProcessStatus,DimProcessStatus.qzKK9jRwpghbmKVsXcbc-40,DimensionMember,Inbound
+DimProcessStatus,DimProcessStatus.qzKK9jRwpghbmKVsXcbc-45,DimensionMember,Outbound
+DimProcessStatus,DimProcessStatus.qzKK9jRwpghbmKVsXcbc-52,FullyExclusive,"Inbound
+Status
+"
+DimProcessStatus,DimProcessStatus.qzKK9jRwpghbmKVsXcbc-56,DimensionMember,good received
+DimProcessStatus,DimProcessStatus.qzKK9jRwpghbmKVsXcbc-61,DimensionMember,stored
+DimProcessStatus,DimProcessStatus.qzKK9jRwpghbmKVsXcbc-68,HierarchyLevel,Level X
 DimTimestamp,DimTimestamp.JcKF2ojR-ty8W29sog4p-103,Dimension,Timestamp
 DimTimestamp,DimTimestamp.JcKF2ojR-ty8W29sog4p-109,Hierarchy,HHMMSS Hierarchy
-FactAdviceLine,FactAdviceLine.none,none,none
+FactAdviceLine,FactAdviceLine.GLuP2zMcqy0yixXODWUq-1,MeasureGroup,Advice Line
+FactAdviceLine,FactAdviceLine.GLuP2zMcqy0yixXODWUq-8,Dimension,Client
+FactAdviceLine,FactAdviceLine.GLuP2zMcqy0yixXODWUq-14,Dimension,Timestamp
+FactAdviceLine,FactAdviceLine.GLuP2zMcqy0yixXODWUq-20,Dimension,Calendar
+FactAdviceLine,FactAdviceLine.GLuP2zMcqy0yixXODWUq-26,Dimension,Calendar
+FactAdviceLine,FactAdviceLine.GLuP2zMcqy0yixXODWUq-32,Dimension,Advice Line
+FactAdviceLine,FactAdviceLine.GLuP2zMcqy0yixXODWUq-38,Dimension,Location
+FactAdviceLine,FactAdviceLine.GLuP2zMcqy0yixXODWUq-44,Dimension,Process Status
+FactAdviceLine,FactAdviceLine.GLuP2zMcqy0yixXODWUq-50,Dimension,Article
+FactAdviceLine,FactAdviceLine.GLuP2zMcqy0yixXODWUq-65,MeasureDimension,Advice Line Measures
+FactAdviceLine,FactAdviceLine.GLuP2zMcqy0yixXODWUq-73,DimensionMember,pieces
+FactAdviceLine,FactAdviceLine.GLuP2zMcqy0yixXODWUq-78,DimensionMember,avg pieces per advice line
