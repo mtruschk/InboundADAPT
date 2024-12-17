@@ -531,6 +531,11 @@
             </mxGeometry>
           </mxCell>
         </UserObject>
+        <object label="Kann man dem &quot;Leser&quot; vermitteln, dass Default-Aggregationen (sum, count, avg, min, max) nicht explizit &quot;modelliert&quot; werden?" btelligentLibrary="ADAPT" btelligentShapeType="Comment" id="GLuP2zMcqy0yixXODWUq-93">
+          <mxCell style="shape=note;whiteSpace=wrap;html=1;backgroundOutline=1;darkOpacity=0.05;size=10;fillColor=#fff2cc;strokeColor=#F5E08C;fontSize=10;verticalAlign=top;align=left;spacingLeft=3;spacingRight=3;" vertex="1" parent="1">
+            <mxGeometry x="550" y="520" width="230" height="50" as="geometry" />
+          </mxCell>
+        </object>
       </root>
     </mxGraphModel>
   </diagram>
