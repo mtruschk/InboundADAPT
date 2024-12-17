@@ -1,5 +1,4 @@
 base_name,shape_id,shape_type,label
-ADAPT_Template,ADAPT_Template.none,none,none
 DimAdvice,DimAdvice.0bGNPsY97k1aB0GLz53n-1,Dimension,Advice
 DimAdvice,DimAdvice.0bGNPsY97k1aB0GLz53n-7,Attribute,Advice ID
 DimAdviceLine,DimAdviceLine.VVB_PqHr9NoXP4snUmqs-1,Dimension,Advice Line
@@ -28,11 +27,6 @@ DimCalendar,DimCalendar.vdX0nlRlNV5u23rPeZXY-117,Comment,Müssen hier auch zwei 
 DimCalendar,DimCalendar.vdX0nlRlNV5u23rPeZXY-118,Comment,"Welche Hierarchien sollen in ADAPT eigentlich dargestellt werden, die natürlichen Abhängigkeiten oder die im Reporting verfügbaren Auswertepfade? Das Quartal könnte ja übersprungen werden oder es könnte sogar ein Halbjahr dazwischengeschoben werden."
 DimCalendar,DimCalendar.vdX0nlRlNV5u23rPeZXY-146,Attribute,Date
 DimCalendar,DimCalendar.vdX0nlRlNV5u23rPeZXY-150,Attribute,Weekday
-DimCalendar,DimCalendar.vdX0nlRlNV5u23rPeZXY-186,MeasureDimension,Measures
-DimCalendar,DimCalendar.vdX0nlRlNV5u23rPeZXY-187,MeasureGroup,Advice Line
-DimCalendar,DimCalendar.vdX0nlRlNV5u23rPeZXY-201,DimensionMember,Bruttoumsatz
-DimCalendar,DimCalendar.vdX0nlRlNV5u23rPeZXY-222,Function,<div>(Nettoumsatz *&nbsp;</div><div>Umsatzsteuer / 100)</div><div>+ Ausgleichsfaktor</div>
-DimCalendar,DimCalendar.vdX0nlRlNV5u23rPeZXY-296,DimensionMember,Nettoumsatz
 DimCalendar,DimCalendar.vdX0nlRlNV5u23rPeZXY-318,DimensionScope,warm months
 DimCalendar,DimCalendar.vdX0nlRlNV5u23rPeZXY-321,DimensionScope,cold months
 DimCalendar,DimCalendar.vdX0nlRlNV5u23rPeZXY-324,DimensionScope,sunny months
@@ -87,6 +81,17 @@ DimProcessStatus,DimProcessStatus.qzKK9jRwpghbmKVsXcbc-61,DimensionMember,stored
 DimProcessStatus,DimProcessStatus.qzKK9jRwpghbmKVsXcbc-68,HierarchyLevel,Level X
 DimTimestamp,DimTimestamp.JcKF2ojR-ty8W29sog4p-103,Dimension,Timestamp
 DimTimestamp,DimTimestamp.JcKF2ojR-ty8W29sog4p-109,Hierarchy,HHMMSS Hierarchy
+FactAdvice,FactAdvice.BBVSgjqUGbZZGQJtcsMZ-1,MeasureGroup,Advice
+FactAdvice,FactAdvice.BBVSgjqUGbZZGQJtcsMZ-8,Dimension,Client
+FactAdvice,FactAdvice.BBVSgjqUGbZZGQJtcsMZ-14,Dimension,Timestamp
+FactAdvice,FactAdvice.BBVSgjqUGbZZGQJtcsMZ-20,Dimension,Calendar
+FactAdvice,FactAdvice.BBVSgjqUGbZZGQJtcsMZ-26,Dimension,Calendar
+FactAdvice,FactAdvice.BBVSgjqUGbZZGQJtcsMZ-32,Dimension,Advice
+FactAdvice,FactAdvice.BBVSgjqUGbZZGQJtcsMZ-38,Dimension,Location
+FactAdvice,FactAdvice.BBVSgjqUGbZZGQJtcsMZ-44,Dimension,Process Status
+FactAdvice,FactAdvice.BBVSgjqUGbZZGQJtcsMZ-64,MeasureDimension,Advice Measures
+FactAdvice,FactAdvice.BBVSgjqUGbZZGQJtcsMZ-77,DimensionMember,avg lines per advice
+FactAdvice,FactAdvice.BBVSgjqUGbZZGQJtcsMZ-84,Function,<div>sum(Advice Line)&nbsp;</div><div>/ count()</div>
 FactAdviceLine,FactAdviceLine.GLuP2zMcqy0yixXODWUq-1,MeasureGroup,Advice Line
 FactAdviceLine,FactAdviceLine.GLuP2zMcqy0yixXODWUq-8,Dimension,Client
 FactAdviceLine,FactAdviceLine.GLuP2zMcqy0yixXODWUq-14,Dimension,Timestamp
@@ -99,3 +104,4 @@ FactAdviceLine,FactAdviceLine.GLuP2zMcqy0yixXODWUq-50,Dimension,Article
 FactAdviceLine,FactAdviceLine.GLuP2zMcqy0yixXODWUq-65,MeasureDimension,Advice Line Measures
 FactAdviceLine,FactAdviceLine.GLuP2zMcqy0yixXODWUq-73,DimensionMember,pieces
 FactAdviceLine,FactAdviceLine.GLuP2zMcqy0yixXODWUq-78,DimensionMember,avg pieces per advice line
+FactAdviceLine,FactAdviceLine.GLuP2zMcqy0yixXODWUq-85,Function,pieces / count()

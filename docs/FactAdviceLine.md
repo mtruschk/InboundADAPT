@@ -17,6 +17,7 @@
 |FactAdviceLine.GLuP2zMcqy0yixXODWUq-65|MeasureDimension|Advice Line Measures|
 |FactAdviceLine.GLuP2zMcqy0yixXODWUq-73|DimensionMember|pieces|
 |FactAdviceLine.GLuP2zMcqy0yixXODWUq-78|DimensionMember|avg pieces per advice line|
+|FactAdviceLine.GLuP2zMcqy0yixXODWUq-85|Function|pieces / count()|
 
 ## recognized connections from b.telligent ADAPT library:
 
@@ -32,3 +33,5 @@
 |MeasureGroup|Advice Line|LoosePrecedence|finished|Dimension|Calendar|FactAdviceLine.GLuP2zMcqy0yixXODWUq-63|FactAdviceLine.GLuP2zMcqy0yixXODWUq-1|FactAdviceLine.GLuP2zMcqy0yixXODWUq-20
 |MeasureGroup|Advice Line|LoosePrecedence||MeasureDimension|Advice Line Measures|FactAdviceLine.GLuP2zMcqy0yixXODWUq-72|FactAdviceLine.GLuP2zMcqy0yixXODWUq-1|FactAdviceLine.GLuP2zMcqy0yixXODWUq-65
 |MeasureDimension|Advice Line Measures|LoosePrecedence||DimensionMember|pieces|FactAdviceLine.GLuP2zMcqy0yixXODWUq-83|FactAdviceLine.GLuP2zMcqy0yixXODWUq-65|FactAdviceLine.GLuP2zMcqy0yixXODWUq-73
+|MeasureDimension|Advice Line Measures|LoosePrecedence||DimensionMember|avg pieces per advice line|FactAdviceLine.GLuP2zMcqy0yixXODWUq-84|FactAdviceLine.GLuP2zMcqy0yixXODWUq-65|FactAdviceLine.GLuP2zMcqy0yixXODWUq-78
+|DimensionMember|avg pieces per advice line|LoosePrecedence||Function|pieces / count()|FactAdviceLine.GLuP2zMcqy0yixXODWUq-92|FactAdviceLine.GLuP2zMcqy0yixXODWUq-78|FactAdviceLine.GLuP2zMcqy0yixXODWUq-85

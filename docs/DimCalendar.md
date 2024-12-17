@@ -23,11 +23,6 @@
 |DimCalendar.vdX0nlRlNV5u23rPeZXY-118|Comment|Welche Hierarchien sollen in ADAPT eigentlich dargestellt werden, die natürlichen Abhängigkeiten oder die im Reporting verfügbaren Auswertepfade? Das Quartal könnte ja übersprungen werden oder es könnte sogar ein Halbjahr dazwischengeschoben werden.|
 |DimCalendar.vdX0nlRlNV5u23rPeZXY-146|Attribute|Date|
 |DimCalendar.vdX0nlRlNV5u23rPeZXY-150|Attribute|Weekday|
-|DimCalendar.vdX0nlRlNV5u23rPeZXY-186|MeasureDimension|Measures|
-|DimCalendar.vdX0nlRlNV5u23rPeZXY-187|MeasureGroup|Advice Line|
-|DimCalendar.vdX0nlRlNV5u23rPeZXY-201|DimensionMember|Bruttoumsatz|
-|DimCalendar.vdX0nlRlNV5u23rPeZXY-222|Function|<div>(Nettoumsatz *&nbsp;</div><div>Umsatzsteuer / 100)</div><div>+ Ausgleichsfaktor</div>|
-|DimCalendar.vdX0nlRlNV5u23rPeZXY-296|DimensionMember|Nettoumsatz|
 |DimCalendar.vdX0nlRlNV5u23rPeZXY-318|DimensionScope|warm months|
 |DimCalendar.vdX0nlRlNV5u23rPeZXY-321|DimensionScope|cold months|
 |DimCalendar.vdX0nlRlNV5u23rPeZXY-324|DimensionScope|sunny months|
@@ -52,13 +47,8 @@
 |HierarchyLevel|Month (no year)|StrictPrecedence||HierarchyLevel|Day|DimCalendar.vdX0nlRlNV5u23rPeZXY-116|DimCalendar.vdX0nlRlNV5u23rPeZXY-61|DimCalendar.vdX0nlRlNV5u23rPeZXY-109
 |HierarchyLevel|Day|LoosePrecedence||Attribute|Date|DimCalendar.vdX0nlRlNV5u23rPeZXY-149|DimCalendar.vdX0nlRlNV5u23rPeZXY-109|DimCalendar.vdX0nlRlNV5u23rPeZXY-146
 |HierarchyLevel|Day|LoosePrecedence||Attribute|Weekday|DimCalendar.vdX0nlRlNV5u23rPeZXY-153|DimCalendar.vdX0nlRlNV5u23rPeZXY-109|DimCalendar.vdX0nlRlNV5u23rPeZXY-150
-|MeasureGroup|Advice Line|LoosePrecedence|Transaction|Dimension|Calendar|DimCalendar.vdX0nlRlNV5u23rPeZXY-171|DimCalendar.vdX0nlRlNV5u23rPeZXY-187|DimCalendar.f77LYvtL0lH_vqSuSwCJ-1
-|MeasureGroup|Advice Line|LoosePrecedence||MeasureDimension|Measures|DimCalendar.vdX0nlRlNV5u23rPeZXY-195|DimCalendar.vdX0nlRlNV5u23rPeZXY-187|DimCalendar.vdX0nlRlNV5u23rPeZXY-186
-|MeasureDimension|Measures|LoosePrecedence||DimensionMember|Bruttoumsatz|DimCalendar.vdX0nlRlNV5u23rPeZXY-202|DimCalendar.vdX0nlRlNV5u23rPeZXY-186|DimCalendar.vdX0nlRlNV5u23rPeZXY-201
-|DimensionMember|Bruttoumsatz|LoosePrecedence||Function|<div>(Nettoumsatz *&nbsp;</div><div>Umsatzsteuer / 100)</div><div>+ Ausgleichsfaktor</div>|DimCalendar.vdX0nlRlNV5u23rPeZXY-231|DimCalendar.vdX0nlRlNV5u23rPeZXY-201|DimCalendar.vdX0nlRlNV5u23rPeZXY-222
 |HierarchyLevel|Month (no year)|LoosePrecedence||FullyExclusive|by temperature|DimCalendar.vdX0nlRlNV5u23rPeZXY-236|DimCalendar.vdX0nlRlNV5u23rPeZXY-61|DimCalendar.vdX0nlRlNV5u23rPeZXY-333
 |HierarchyLevel|Month (no year)|LoosePrecedence||FullyOverlapping|by weather|DimCalendar.vdX0nlRlNV5u23rPeZXY-275|DimCalendar.vdX0nlRlNV5u23rPeZXY-61|DimCalendar.vdX0nlRlNV5u23rPeZXY-338
-|MeasureDimension|Measures|LoosePrecedence||DimensionMember|Nettoumsatz|DimCalendar.vdX0nlRlNV5u23rPeZXY-301|DimCalendar.vdX0nlRlNV5u23rPeZXY-186|DimCalendar.vdX0nlRlNV5u23rPeZXY-296
 |FullyExclusive|by temperature|LoosePrecedence||DimensionScope|warm months|DimCalendar.vdX0nlRlNV5u23rPeZXY-336|DimCalendar.vdX0nlRlNV5u23rPeZXY-333|DimCalendar.vdX0nlRlNV5u23rPeZXY-318
 |FullyExclusive|by temperature|LoosePrecedence||DimensionScope|cold months|DimCalendar.vdX0nlRlNV5u23rPeZXY-337|DimCalendar.vdX0nlRlNV5u23rPeZXY-333|DimCalendar.vdX0nlRlNV5u23rPeZXY-321
 |FullyOverlapping|by weather|LoosePrecedence||DimensionScope|sunny months|DimCalendar.vdX0nlRlNV5u23rPeZXY-341|DimCalendar.vdX0nlRlNV5u23rPeZXY-338|DimCalendar.vdX0nlRlNV5u23rPeZXY-324
