@@ -18,6 +18,7 @@
 |FactAdviceLine.GLuP2zMcqy0yixXODWUq-73|DimensionMember|pieces|
 |FactAdviceLine.GLuP2zMcqy0yixXODWUq-78|DimensionMember|avg pieces per advice line|
 |FactAdviceLine.GLuP2zMcqy0yixXODWUq-85|Function|pieces / count()|
+|FactAdviceLine.GLuP2zMcqy0yixXODWUq-93|Comment|Kann man dem "Leser" vermitteln, dass Default-Aggregationen (sum, count, avg, min, max) nicht explizit "modelliert" werden?|
 
 ## recognized connections from b.telligent ADAPT library:
 

@@ -105,3 +105,4 @@ FactAdviceLine,FactAdviceLine.GLuP2zMcqy0yixXODWUq-65,MeasureDimension,Advice Li
 FactAdviceLine,FactAdviceLine.GLuP2zMcqy0yixXODWUq-73,DimensionMember,pieces
 FactAdviceLine,FactAdviceLine.GLuP2zMcqy0yixXODWUq-78,DimensionMember,avg pieces per advice line
 FactAdviceLine,FactAdviceLine.GLuP2zMcqy0yixXODWUq-85,Function,pieces / count()
+FactAdviceLine,FactAdviceLine.GLuP2zMcqy0yixXODWUq-93,Comment,"Kann man dem ""Leser"" vermitteln, dass Default-Aggregationen (sum, count, avg, min, max) nicht explizit ""modelliert"" werden?"
